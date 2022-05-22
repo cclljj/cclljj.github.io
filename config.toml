@@ -1,0 +1,40 @@
+baseURL = 'https://cclljj.github.io/'
+languageCode = 'en-us'
+title = 'Ling-Jyh Chen'
+theme = "hugo-resume"
+
+
+[params]
+address = "128, Sec. 2, Academia Road, Taipei 11529, Taiwan"
+email = "cclljj@iis.sinica.edu.tw"
+favicon = "/favicon.ico"
+firstName = "Ling-Jyh"
+lastName = "Chen"
+phone = "+886-2-27883799x1702"
+profileImage = "img/TechChat.png"
+showEducation = false
+showExperience = false
+showOpenSource = false
+showProjects = true
+showPublications = true
+showQr = false
+showSkills = false
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-XX-XX"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/edwardwebb/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/cclljj/"
+name = "GitHub"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

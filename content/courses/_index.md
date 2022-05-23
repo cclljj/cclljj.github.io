@@ -2,33 +2,37 @@
 title: "Courses"
 date: 2022-05-23T01:28:30+08:00
 ---
-- Advanced Computer Networks
-    - [Fall 2014](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2014acn%2F&sa=D&sntz=1&usg=AOvVaw0CoXEVGljY4j7xKylSG4WW), National Taiwan Normal University
-    - [Fall 2013](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2013acn%2F&sa=D&sntz=1&usg=AOvVaw2lFHQNpuqdDNzqtWcLfF-n), National Taiwan Normal University
-    - Spring 2012, National Taiwan Normal University
-    - Spring 2011, National Taiwan Normal University
-    - Spring 2010, National Taiwan Normal University
-    - Spring 2009, National Taiwan Normal University
-    - Spring 2008, National Taiwan Normal University
-    - Spring 2007, National Taiwan Normal University
-    - Spring 2006, National Taiwan Normal University
-- Advanced Database Systems
-    - [Spring 2015](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2015ads%2F&sa=D&sntz=1&usg=AOvVaw2dSsrcXeeufnqU6Ip5PWDa), National Taiwan Normal University
-    - [Spring 2014](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2014ads%2F&sa=D&sntz=1&usg=AOvVaw0dmzACq7wJ3LPE2rZX1jw4), National Taiwan Normal University
-    - [Spring 2013](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2013ads%2F&sa=D&sntz=1&usg=AOvVaw3HgM_cTQz7-0SD48eVR9dF), National Taiwan Normal University
-- Data Communication
-    - [Fall 2017](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2F2017ntnudc&sa=D&sntz=1&usg=AOvVaw19BA4EUtgQSh8KxjNpMz3e), National Taiwan Normal University
-    - [Fall 2016](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2016dc%2F&sa=D&sntz=1&usg=AOvVaw1R9YofTeWGpvsqK9aJm_hh), National Taiwan Normal University
-    - [Fall 2015](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2015dc%2F&sa=D&sntz=1&usg=AOvVaw3UrSjODkXWSfuhLG26PFqi), National Taiwan Normal University
-    - Fall 2011, National Taiwan Normal University
-    - Fall 2010, National Taiwan Normal University
-    - Fall 2009, National Taiwan Normal University
-    - Fall 2008, National Taiwan Normal University
-    - Fall 2007, National Taiwan Normal University
-    - Fall 2006, National Taiwan Normal University
-    - Fall 2005, National Taiwan Normal University
-- Internet of Things
-    - [Spring 2017](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnu2017iot%2F&sa=D&sntz=1&usg=AOvVaw10oS8CAzktM0awb07x7OE_), National Taiwan Normal University
-- Special Topics in Computer Networks
-    - [Spring 2016](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FIISNRL%2Fntnu-2016-iot%2F&sa=D&sntz=1&usg=AOvVaw2uaH1MQ8pxjfJYcEK2ObWa), National Taiwan Normal University
-    - [Fall 2012](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fntnufall2012stcn%2F&sa=D&sntz=1&usg=AOvVaw3p38MWk3jHEwQfit-tBksc), National Taiwan Normal University
+### Advanced Computer Networks
+- [Fall 2014](https://sites.google.com/site/ntnu2014acn/), National Taiwan Normal University
+- [Fall 2013](https://sites.google.com/site/ntnu2013acn/), National Taiwan Normal University
+- Spring 2012, National Taiwan Normal University
+- Spring 2011, National Taiwan Normal University
+- Spring 2010, National Taiwan Normal University
+- Spring 2009, National Taiwan Normal University
+- Spring 2008, National Taiwan Normal University
+- Spring 2007, National Taiwan Normal University
+- Spring 2006, National Taiwan Normal University
+
+### Advanced Database Systems
+- [Spring 2015](https://sites.google.com/site/ntnu2015ads/), National Taiwan Normal University
+- [Spring 2014](https://sites.google.com/site/ntnu2014ads/), National Taiwan Normal University
+- [Spring 2013](https://sites.google.com/site/ntnu2013ads/), National Taiwan Normal University
+
+### Data Communication
+- [Fall 2017](https://sites.google.com/site/2017ntnudc/), National Taiwan Normal University
+- [Fall 2016](https://sites.google.com/site/ntnu2016dc/), National Taiwan Normal University
+- [Fall 2015](https://sites.google.com/site/ntnu2015dc/), National Taiwan Normal University
+- Fall 2011, National Taiwan Normal University
+- Fall 2010, National Taiwan Normal University
+- Fall 2009, National Taiwan Normal University
+- Fall 2008, National Taiwan Normal University
+- Fall 2007, National Taiwan Normal University
+- Fall 2006, National Taiwan Normal University
+- Fall 2005, National Taiwan Normal University
+
+### Internet of Things
+- [Spring 2017](https://sites.google.com/site/ntnu2017iot/), National Taiwan Normal University
+
+### Special Topics in Computer Networks
+- [Spring 2016](https://github.com/IISNRL/ntnu-2016-iot/), National Taiwan Normal University
+- [Fall 2012](https://sites.google.com/site/ntnufall2012stcn/), National Taiwan Normal University

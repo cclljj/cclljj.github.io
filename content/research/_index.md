@@ -9,7 +9,7 @@ date: 2022-05-23T01:33:29+08:00
 
   Keywords: PM2.5, Participatory Sensing, Smart City, Open Data
 
-  AirBox Dataset [click](/research/airbox_dataset/)
+  AirBox Dataset: [[download](/research/airbox_dataset/)]
 
 {{< youtube nzUN6ROyD5Q >}}
 

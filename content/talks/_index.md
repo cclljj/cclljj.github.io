@@ -5,14 +5,14 @@ date: 2022-05-23T01:33:29+08:00
 
 ### 2022
 
-- Invited Speaker, _Save Your Own Environment: A Citizen Science Initiative_, Public AI Workshop, Hsinchu, Taiwan, Jan. 18, 2022.
+- Invited Speaker, [_Save Your Own Environment: A Citizen Science Initiative_](https://www.youtube.com/watch?v=qAfp_3i55w0), Public AI Workshop, Hsinchu, Taiwan, Jan. 18, 2022.
 
 ### 2021
 
 - Invited Speaker, _A Breathing Box: Small Box and Big Data_, Min-Tzu Elementary School, Chiayi City, Taiwan, Dec. 8, 2021.
 - Invited Speaker, _VGI and Data Management in Participatory Sensing_, Voluntary Geographic Information (VGI) Community Perception and Knowledge Discovery Forum, Taipei, Taiwan, Dec. 2, 2021.
 - Invited Speaker, _Save Your Own Environment: A Citizen Science Initiative_, Digital Governance Strategy Management Training Course, National Development Council, Taiwan, Nov. 24, 2021.
-- Invited Speaker, _The Evolution of AirBox Data Management_, Research Data Management Workshop, Taipei, Taiwan, Oct. 7, 2021.
+- Invited Speaker, [_The Evolution of AirBox Data Management_](https://www.youtube.com/watch?v=l6bb3Kvi94E), Research Data Management Workshop, Taipei, Taiwan, Oct. 7, 2021.
 - Keynote, _Internet of Things for Air Quality Monitoring: Past, Present and Future_, International Symposium of Precision Environmental Medicine, Kaohsiung, Taiwan, Sep. 27, 2021.
 - Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ International Degree Program in Climate Change and Sustainable Development, National Taiwan University June 18, 2021.
 - Keynote, _Internet of Things for Air Quality Monitoring: Past, Present and Future_, International Conference on Indoor Environmental Quality Health, Infection Prevention and Intelligent Living in Asia, Tainan, Taiwan, June 4, 2021.

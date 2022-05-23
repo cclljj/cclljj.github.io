@@ -12,10 +12,10 @@ date: 2022-05-23T01:28:30+08:00
 - Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - Aug.'20 - present; Adjunct Professor; Department of Computer Science, National Chiao Tung University
-- Jan.'21 - Dec.'21; Consultant; Ministry of Education, Taiwan
-- Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
-- March'19 - present; Executive Secretary; CODATA Committee of Taiwan
 - Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
+- Jan.'21 - present; Consultant; Ministry of Education, Taiwan
+- Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
+- Mar.'19 - present; Executive Secretary; CODATA Committee of Taiwan
 - Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium
 - Oct.'17 - Dec.'17; Acting Director; Department of Information Technology Services, Academia Sinica
 - Jan.'11 - Dec.'17; Associate Research Fellow; Institute of Information Science, Academia Sinica

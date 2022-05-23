@@ -3,18 +3,18 @@ title: "Research"
 date: 2022-05-23T01:33:29+08:00
 ---
 
-## Current Project
+### Current Project
 
 - AirBox: A Participatory Sensing Ecosystem for PM2.5 Monitoring (https://pm25.lass-net.org)
 
   Keywords: PM2.5, Participatory Sensing, Smart City, Open Data
 
-  AirBox Dataset [click](https://sites.google.com/site/cclljj/research/dataset-airbox)
+  AirBox Dataset [click](/research/airbox_dataset/)
 
 {{< youtube nzUN6ROyD5Q >}}
 
 
-## Objective
+### Objective
 
 My research interests lie in the area of networked sensing systems and applications. The primary objectives of my research are 1) to investigate theoretical models of real world systems; 2) to conduct real world deployment to verify theoretical models; and 3) to combine theoretical models and system deployment to solve real world problems.
 
@@ -24,7 +24,7 @@ In addition, we research Internet of Things systems and develop a large-scale sy
 
 My ongoing research focuses on spatio-temporal data analysis of IoT systems and its applications. We intend to apply our research results to other real-world networked sensing systems, such as participatory sensing for urban profiling, environmental monitoring, and wearable sensing and computing. Moreover, we wish to employ advanced artificial intelligence techniques to increase the smartness of networked sensing systems, and we will incorporate our research results with emerging social computing systems as a whole to facilitate cyber-physical socially networked systems in the future.
 
-## Past Projects
+### Past Projects
 
 - **Bus+:** A Comfort Measuring System for Public Bus Systems ([http://cms.vprobe.org/](http://cms.vprobe.org/))
 

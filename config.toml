@@ -23,7 +23,7 @@ showSkills = false
 [params.google]
 
 [params.google.analytics]
-trackerID = "XX-XX-XX"
+trackerID = "G-614VHLKXM7"
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/edwardwebb/"

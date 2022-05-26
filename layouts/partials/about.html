@@ -8,8 +8,8 @@
               <h1 class="mb-0">{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}
               </h1>
 
-              <div class="subheading mb-5">{{ .Site.Params.address }} ·
-                <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
+              <div class="subheading mb-3">{{ .Site.Params.address }} ·
+                <a href="mailto:{{ .Site.Params.email}}">{{ .Site.Params.email}}</a>
               </div>	    
 
 	<div class="subheading">
@@ -17,7 +17,7 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-0">
 		<div class="resume-content mr-auto">
             <h3 class="mb-0"><span class="text-primary">{{ .title }}</span></h3>
-            <div class="subheading mb-3">{{ .affiliation | markdownify }}</div>
+            <div class="subheading mb-2">{{ .affiliation | markdownify }}</div>
         	</div>
         </div>
     {{ end }}

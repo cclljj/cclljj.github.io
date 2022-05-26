@@ -7,7 +7,12 @@
 
               <h1 class="mb-0">{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}
               </h1>
-	    <div class="subheading">
+
+              <div class="subheading mb-5">{{ .Site.Params.address }} ·
+                <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
+              </div>	    
+
+	<div class="subheading">
     {{ range .Site.Data.affiliation }}
         <div class="resume-item d-flex flex-column flex-md-row mb-0">
 		<div class="resume-content mr-auto">
@@ -16,11 +21,7 @@
         	</div>
         </div>
     {{ end }}
-        </div>
-              <div class="mb-0">Address: {{ .Site.Params.address }}</div>
-              <div class="mb-0">Phone: {{ .Site.Params.phone }}</div>
-               <div class="mb-3">Email: <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
-              </div>
+	</div>
 
             </div>
 

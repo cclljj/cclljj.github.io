@@ -1,0 +1,22 @@
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+    {{ range .Site.Data.video }}
+        <div class="resume-item d-flex flex-column flex-md-row mb-0">
+                <div class="resume-content mr-auto">
+            <h3 class="mb-0"><span class="text-primary">{{ .title }}</span></h3>
+            <div class="subheading mb-2">{{ .date }}, {{ .venue }}
+{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+{{- if not $pc.Disable -}}
+{{- $id := .youtube -}}
+{{- $title := .title | default "YouTube Video" }}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://youtube.com/embed/{{ $id }}?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="{{ $title }}"></iframe>
+</div>
+{{ end -}}
+<p>
+            </div>
+                </div>
+        </div>
+    {{ end }}
+      </div>
+    </section>

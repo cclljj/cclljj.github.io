@@ -12,13 +12,8 @@ firstName = "Ling-Jyh"
 lastName = "Chen"
 phone = "+886-2-27883799#1702"
 profileImage = "image/cclljj.png"
-showEducation = false
-showExperience = false
-showOpenSource = false
-showProjects = true
-showPublications = true
+showVideo = true
 showQr = false
-showSkills = false
 
 [params.google]
 

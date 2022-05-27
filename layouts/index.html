@@ -1,3 +1,8 @@
 {{ define "main" }}
    {{ partial "about.html" .}}
+   {{ if .Site.Params.showVideo }}
+       {{ partial "video.html" . }}
+   {{ end }}
 {{ end }}
+
+

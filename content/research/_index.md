@@ -11,7 +11,7 @@ date: 2022-05-23T01:33:29+08:00
 
   AirBox Dataset: [[download](/research/airbox_dataset/)]
 
-{{< youtube nzUN6ROyD5Q >}}
+{{< youtube id="nzUN6ROyD5Q" title="Making Sense of Internet of Things: using AirBox as an Example, 2020/9/24 APNOMS Keynote" >}}
 
 
 ### Objective

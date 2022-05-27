@@ -8,13 +8,14 @@ date: 2022-05-23T01:33:29+08:00
 **Full-time**
 
 - Fu-Shiang Ching (2017/10 ~ present)
-- Shu-Chen Chiou ()
-- Ming-Kuang Chung ()
+- Shu-Chen Chiou (2021/4 ~ present)
+- Ming-Kuang Chung (2021/1 ~ present)
 
 **Part-time**
 
 - Hao-Ying Chang (Master Student, NTNU)
 - Chia-Chin Chung (Master Student, NTNU)
+- Chu Chi Pai (Master Student, NTNU)
 
 ### Hall of Fame
 
@@ -26,11 +27,11 @@ date: 2022-05-23T01:33:29+08:00
 
 **Research Assistants**
 
-- Tai-Ming Huang
-- Pei-Yu Lai (2016/5 ~ )
-- Pai-Chien Peng (2020/8 ~ )
-- Lin-Syuan Yang (2021/1 ~ )
-- Yun-Chieh Wang (2020/3 ~ )
+- Tai-Ming Huang, 2021/7 ~ 2022/4
+- Lin-Syuan Yang, 2021/1 ~ 2021/8 (MS student, University of California at Los Angeles)
+- Yun-Chieh Wang, 2020/3 ~ 2021/8 (Academia Sinica)
+- Pai-Chien Peng, 2020/8 ~ 2021/5
+- Pei-Yu Lai, 2016/5 ~ 2021/4
 - Cyuan-Heng Luo, 2017/7 ~ 2021/3 (MS student, Rice University)
 - Dong-Yi Wu, 2017/10 ~ 2021/1 (MS student, National Cheng Kung University)
 - Yi-Ting Huang, 2018/10 ~ 2020/9
@@ -187,6 +188,23 @@ date: 2022-05-23T01:33:29+08:00
 
 ### Intern
 
+- Ting-Wen Ke, 2020/7 ~ 2020/8 (BS student, National Chiao Tung University)
+- Chen-Yi Huang, 2020/5 ~ 2020/8
+- Wei-Ping Lin, 2020/7 ~ 2020/8
+- Sheng-Chun Wu, 2020/7 ~ 2021/4 (BS student, National Cheng Kung University)
+- Tze-Hsuan Chou, 2020/7 ~ 2021/4 (BS student, Feng Chia University)
+- Huan-Ting Wei, 2019/7 ~ 2019/8 (BS student, The Hong Kong University of Science and Technology)
+- Yu-Hsing Tsai, 2019/7 ~ 2019/12 (BS student, National Taiwan University)
+- Ren-Yi Chen, 2019/7 ~ 2020/6 (BS student, National Taiwan University)
+- Ching-Hsuan Huang, 2018/7 ~ 2018/8 (MS student, University of Washington)
+- Chi-Chen Luo, 2018/7 ~ 2018/12 (BS student, National Taiwan University)
+- Hao-En Ke, 2018/7 ~ 2019/12 (BS student, National Chiao Tung University)
+- Le-Yi Peng, 2017/7 ~ 2017/8 (BS student, National Chung Hsing University)
+- Ju-Yu Wu, 2017/7 ~ 2017/8 (BS student, National Cheng Kung University)
+- Kuan-Huan Lin, 2017/7 ~ 2017/8
+- Yi-Ting Lee, 2017/7 ~ 2017/8 (BS student, National Cheng Kung University)
+- Yun-Chung Hsiao, 2017/7 ~ 2017/8 (BS student, National Taiwan University)
+- Yun-Juo Tai, 2017/7 ~ 2017/8 (BS student, National Taiwan University)
 - Wei-Yu Yang, 2016/7 ~ 2016/8 (BS student, National Taiwan University)
 - Yen-Ru Lin, 2016/7 ~ 2016/8 (BS student, National Chung Hsing University)
 - Yun-Chieh Wang, 2016/7 ~ 2016/8 (BS student, Kun Shan University)

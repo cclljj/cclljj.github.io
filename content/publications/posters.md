@@ -7,6 +7,7 @@ sitemap:
   priority : 0.8
 ---
 
+- Chia-Chin Chung, Chu-Chi Pai, Fu-Shiang Ching, Chao Wang, and Ling-Jyh Chen. _When Post-Quantum Cryptography Meets the Internet of Things: An Empirical Study_. ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'22), Portland, Oregon, USA, 2022.
 - Sheng-Chun Wu, Dong-Yi Wu, Fu-Hsiang Ching, and Ling-Jyh Chen. _Participatory Sound Meter Calibration System for Mobile Devices_. ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'20), Yokohama, Japan, 2020.
 - Yao-Hua Ho, Pei-En Li, Ling-Jyh Chen, and Yu-Lun Liu. _Indoor Air Quality Monitoring System for Proactive Control of Respiratory Infectious Diseases_. ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'20), Yokohama, Japan, 2020.
 - Nai-Cih Liou, Cyuan-Heng Luo, and Ling-Jyh Chen. _Why is short time PM2.5 forecast difficult? The effect of sudden events._ Asian Aerosol Conference (AAC'19), Hong Kong, 2019.

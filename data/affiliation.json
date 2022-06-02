@@ -1,10 +1,16 @@
 [
 {
 "title":"Research Fellow",
-"affiliation": "Institute of Information Science, Academia Sinica"
+"affiliation1": "Institute of Information Science",
+"url1": "https://www.iis.sinica.edu.tw/",
+"affiliation2": "Academia Sinica",
+"url2": "https://www.sinica.edu.tw/"
 },
 {
 "title":"Director",
-"affiliation":"Department of Information Technology Services, Academia Sinica"
+"affiliation1":"Department of Information Technology Services",
+"url1": "https://its.sinica.edu.tw/",
+"affiliation2": "Academia Sinica",
+"url2": "https://www.sinica.edu.tw/"
 }
 ]

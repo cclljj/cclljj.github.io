@@ -29,6 +29,7 @@ date: 2022-05-23T01:28:30+08:00
 ### Honors & Awards
 - Spotlight Alumni Award, College of Education, National Taiwan Normal University, Taiwan, 2020.
 - Best Paper Award, Domestic Track, IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI), Taiwan, 2020.
+- Supervision Award for Best PhD Dissertation, Taiwan Agricultural Information Technology Association (TAITA), 2020.
 - Supervision Award for Best PhD Dissertation Runner-up, Institute of Information & Computing Machinery (IICM), Taiwan, 2020.
 - Best Paper Award, IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI), Taiwan, 2018.
 - Supervision Award for Best PhD Dissertation, Taiwanese Association of Artificial Intelligence (TAAI), 2016.
@@ -107,6 +108,7 @@ date: 2022-05-23T01:28:30+08:00
   - IICM Life Member
 - Conference Service
   - Program Co-Chair, IEEE/PNC Annual Conference and Joint Meetings (PNC), Taipei, Taiwan, 2021.
+  - Organizing Committee, International Symposium on COVID-19, Taipei, Taiwan, 2020.
   - Publication Chair, IEEE/PNC Annual Conference and Joint Meetings (PNC), Singapore, 2019.
   - Publication Chair, IEEE/PNC Annual Conference and Joint Meetings (PNC), San Francisco, USA, 2018.
   - Demo Co-Chair, IEEE/IFIP Network Operations and Management Symposium (NOMS), Taipei, Taiwan, 2018.

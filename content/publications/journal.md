@@ -7,6 +7,7 @@ sitemap:
   priority : 0.8
 ---
 
+- Jia-Hong Tang, Bo-Cheng Lin, Jing-Shiang Hwang, Ling-Jyh Chen, Bing-Sheng Wu, Hong-Lian Jian, Yu-Ting Lee, and Ta-Chien Chan. Dynamic modelling for noise mapping in urban areas. Accepted and to appear in Elsevier Environmental Impact Assessment Review.
 - Chia-Yu Lo, Min-Te Sun, Ling-Jyh Chen, Kazuya Sakai, and Wei-Shinn Ku. [Recurrent Learning on PM2.5 Prediction Based on Clustered Airbox Dataset](https://doi.org/10.1109/TKDE.2020.3047634). Accepted and to appear in IEEE Transactions on Knowledge and Data Engineering.
 - Pei-Yi Wong, Hsiao-Yun Lee, Ling-Jyh Chen, Yu-Cheng Chen, Nai-Tzu Chen, Shih-Chun Candice Lung, Huey-Jen Su, Chih-Da Wu, Jose Guillermo Cedeno Laurent, Gary Adamkiewicz, and John D. Spengler. [An alternative approach for estimating large-area indoor PM2.5 concentration – A case study of schools](https://doi.org/10.1016/j.buildenv.2022.109249). Building and Environment, volume 219, 109249, July 2022. 
 - Sachit Mahajan, Ming-Kuang Chung, Jenny Martinez, Yris Olaya, Dirk Helbing, and Ling-Jyh Chen. [Translating citizen-generated air quality data into evidence for shaping policy](https://doi.org/10.1057/s41599-022-01135-2). Humanities and Social Sciences Communications. volume 9, article 122, April 2022.

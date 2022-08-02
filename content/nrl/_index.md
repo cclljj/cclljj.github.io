@@ -13,8 +13,6 @@ date: 2022-05-23T01:33:29+08:00
 
 **Part-time**
 
-- Hao-Ying Chang (Master Student, NTNU)
-- Chia-Chin Chung (Master Student, NTNU)
 - Chu Chi Pai (Master Student, NTNU)
 
 ### Hall of Fame
@@ -76,6 +74,12 @@ date: 2022-05-23T01:33:29+08:00
 
 **MS/PhD Students**
 
+- Hao-Ying Chang (Master Student, NTNU)
+  - M.S., National Taiwan Normal University, 2022
+  - Thesis title: "[A Measurement Study for Decibel Metering of Remote Objects using Microphone Arrays]()"
+- Chia-Chin Chung (Master Student, NTNU)
+  - M.S., National Taiwan Normal University, 2022
+  - Thesis title: "[An IoT Security Enhancement using Post-Quantum Cryptography]()"
 - Yun Juo Tai
   - M.S., National Taiwan University, 2021
   - Thesis title: "[Responsiveness Assessment of COVID-19 using Worldwide Open Pandemic Data](https://hdl.handle.net/11296/5xgrer)"

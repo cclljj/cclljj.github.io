@@ -215,6 +215,7 @@ date: 2022-05-23T01:28:30+08:00
   - International Conference on Emerging Intelligent Data and Web Technologies (EIDWT) (2012)
   - International Conference on Future Information Technology (FutureTech) (2010, 2011)
   - International Conference on Game and Entertainment Technologies (GET) (2011)
+  - International Conference on Intelligent Environments (IE) (2023)
   - International Conference on Intelligence Fusion (ICIF) (2013)
   - International Conference on Intelligent Networking and Collaborative Systems (INCoS) (2015)
   - International Conference on ITS Telecommunications (ITST) (2008, 2009)

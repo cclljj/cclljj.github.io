@@ -11,14 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # look for Hugo themes (true OR recursive)
+          submodules: true  # 找尋 Hugo 主題 (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.102.3' # hugo version
-           extended: true  # please un-comment this line if yor are using the extended version
+          hugo-version: '0.102.3' # hugo 版本
+           extended: true  # 如果是使用 extended 版本的務必取消註解。
 
       - name: Build
         run: hugo --minify

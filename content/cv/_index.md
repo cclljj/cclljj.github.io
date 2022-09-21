@@ -155,6 +155,7 @@ date: 2022-05-23T01:28:30+08:00
   - ACM International Workshop on Mobility in the Evolving Internet Architecture (MobiArch) (2014)
   - ACM International Workshop on Performance Evaluation of Wireless Ad Hoc, Sensor, and Ubiquitous Networks (PE-WASUN) (2007)
   - ACM International Workshop on Pervasive Wireless Healthcare (MobileHealth) (2015)
+  - ACM International Workshop on Urban Sensor Networks (USN) (2022)
   - ACM Asian Internet Engineering Conference (AINTEC) (2011)
   - ACM/IEEE/IFAC/TRB International Conference on Connected Vehicles & Expo (ICCVE) (2012 - 2016)
   - EAI International Conference on Smart Objects and Technologies for Social Good (GoodTechs) (2015, 2016)

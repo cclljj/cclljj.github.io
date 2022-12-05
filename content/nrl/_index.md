@@ -15,6 +15,8 @@ date: 2022-05-23T01:33:29+08:00
 
 - Pei-Yu Ho (Master Student, NTU)
 - Chu Chi Pai (Master Student, NTNU)
+- Yi-Jie Chen (Bachelor Student, YZU)
+- Yi-Lun Yeh (Bachelor Student, 
 
 ### Hall of Fame
 

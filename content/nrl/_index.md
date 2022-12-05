@@ -13,6 +13,7 @@ date: 2022-05-23T01:33:29+08:00
 
 **Part-time**
 
+- Pei-Yu Ho (Master Student, NTU)
 - Chu Chi Pai (Master Student, NTNU)
 
 ### Hall of Fame

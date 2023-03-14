@@ -144,7 +144,7 @@ date: 2022-05-23T01:28:30+08:00
   - Editorial Board Member, International Journal of Satellite Communications Policy and Management, Inderscience, (2010/04 - present)
   - Editorial Board Member, International Journal of u- and e- Service, Science and Technology, SERSC, (2008/11 - present)
 - Program Committee Member
-  - ACM International Conference on Embedded Networked Sensor Systems (SenSys) (2021)
+  - ACM International Conference on Embedded Networked Sensor Systems (SenSys) (2021, 2023)
   - ACM International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA-AIE) (2010, 2011, 2013-2015)
   - ACM International Conference on Management of Emergent Digital EcoSystems (MEDES) (2009 - 2013, 2015 - 2017)
   - ACM International Workshop on Big Data Analytics for Enhancing Public Transport (BigTransport) (2017)

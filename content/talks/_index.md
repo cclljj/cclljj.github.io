@@ -3,8 +3,17 @@ title: "Talks"
 date: 2022-05-23T01:33:29+08:00
 ---
 
+### 2023
+
+- Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ Department of Geomatics, National Cheng Kung University, Taiwan, March 20, 2023.
+- Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ College of Intelligent Computing, Chang Gung University, March 15, 2023.
+
+
 ### 2022
 
+- Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ Department of Computer Science and Information Engineering, National Central University, Nov. 2, 2022.
+- Invited Speaker, _A Breathing Box: Small Box and Big Data_, Internet of Things Workshop, National Taiwan Notmal University, July 15, 2022.
+- Seminar, _Save Your Own Environment: A Citizen Science Initiative._ Professional Master Program in Artificial Intelligence in Medicine, Taipei Medical University, Mar. 23, 2022.
 - Invited Speaker, [_Save Your Own Environment: A Citizen Science Initiative_](https://www.youtube.com/watch?v=qAfp_3i55w0), Public AI Workshop, Hsinchu, Taiwan, Jan. 18, 2022.
 
 ### 2021

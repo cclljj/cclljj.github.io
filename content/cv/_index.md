@@ -13,9 +13,10 @@ date: 2022-05-23T01:28:30+08:00
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
 - Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
-- Jan.'21 - present; Consultant; Ministry of Education, Taiwan
+- Mar.'23 - present; Specialist; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
 - Mar.'19 - present; Executive Secretary; CODATA Committee of Taiwan
+- Jan.'21 - Dec.'22; Consultant; Ministry of Education, Taiwan
 - Aug.'20 - July'22; Adjunct Professor; Department of Computer Science, National Chiao Tung University
 - Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium
 - Oct.'17 - Dec.'17; Acting Director; Department of Information Technology Services, Academia Sinica
@@ -28,6 +29,8 @@ date: 2022-05-23T01:28:30+08:00
 - Aug.'97 - July'01; Computer Science Teacher; National Wu-Ling Senior High School, Taiwan
 
 ### Honors & Awards
+- Outstanding Alumni Award, Department of Computer Science and Information Engineering, National Taiwan Normal University, Taiwan 2023.
+- Supervision Award for Best PhD Dissertation Runner-up, Institute of Information & Computing Machinery (IICM), Taiwan, 2021.
 - Spotlight Alumni Award, College of Education, National Taiwan Normal University, Taiwan, 2020.
 - Best Paper Award, Domestic Track, IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI), Taiwan, 2020.
 - Supervision Award for Best PhD Dissertation, Taiwan Agricultural Information Technology Association (TAITA), 2020.

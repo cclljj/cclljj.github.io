@@ -5,7 +5,8 @@ date: 2022-05-23T01:33:29+08:00
 
 ### 2023
 
-- Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Institute of Information and Computer Education, National Taiwan Normal University, Taipei, November 27, 2023.
+- Seminar, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Institute of Information and Computer Education, National Taiwan Normal University, Taipei, November 27, 2023.
+- Seminar, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Department of Information and Computer Engineering, Chung Yuan Christian University, Taipei, November 20, 2023.
 - Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Office of Academic Affairs, National Taiwan University, Taipei, October 31, 2023.
 - Seminar, _Making Sense of Internet of Things: using AirBox as an Example_. Department of Geography, National Taiwan Normal University, Taiwan, November 29, 2023.
 - Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ LINE Taiwan, Taipei, October 19, 2023.

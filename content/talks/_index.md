@@ -5,13 +5,17 @@ date: 2022-05-23T01:33:29+08:00
 
 ### 2023
 
+- Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Institute of Information and Computer Education, National Taiwan Normal University, Taipei, November 27, 2023.
+- Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Office of Academic Affairs, National Taiwan University, Taipei, October 31, 2023.
 - Seminar, _Making Sense of Internet of Things: using AirBox as an Example_. Department of Geography, National Taiwan Normal University, Taiwan, November 29, 2023.
 - Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ LINE Taiwan, Taipei, October 19, 2023.
 - Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ China Steel Corporation, Kaohsiung, October 16, 2023.
 - Invited Speaker, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ Chunghwa Telecom, Taipei, September 28, 2023.
 - Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ Chunghwa Telecom, Taipei, August 8, 2023.
 - Invited Speaker, _Introduction to AirBox_. Statistical Science School, Academia Sinica, Taiwan, July 19, 2023.
+- Keynote, _How to Enhance Administrative Services with ChatGPT: Experience Sharing from Academia Sinica._ AIGC Impact Workshop - Summer, Taiwan AI Academy, June 3, 2023.
 - Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ Department of Geomatics, National Cheng Kung University, Taiwan, March 20, 2023.
+- Invited Speaker, _Shaping the future administrative services with ChatGPT: Experience Sharing from Academia Sinica._ AIGC Impact Workshop - Spring, Taiwan AI Academy, March 18, 2023.
 - Seminar, _Internet of Things for Air Quality Monitoring: Past, Present and Future._ College of Intelligent Computing, Chang Gung University, March 15, 2023.
 
 

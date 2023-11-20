@@ -29,6 +29,7 @@ date: 2022-05-23T01:28:30+08:00
 - Aug.'97 - July'01; Computer Science Teacher; National Wu-Ling Senior High School, Taiwan
 
 ### Honors & Awards
+- Best Demo Runner-up Award, ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'23), Istanbul, Turkiye, 2023.
 - Outstanding Alumni Award, Department of Computer Science and Information Engineering, National Taiwan Normal University, Taiwan 2023.
 - Supervision Award for Best PhD Dissertation Runner-up, Institute of Information & Computing Machinery (IICM), Taiwan, 2021.
 - Spotlight Alumni Award, College of Education, National Taiwan Normal University, Taiwan, 2020.
@@ -44,7 +45,7 @@ date: 2022-05-23T01:28:30+08:00
 - Outstanding Young Investigator Award, National Science Council, Taiwan, 2012.
 - First Prize of Taipei Government Open Data Innovation, Taiwan App Star Contest, 2011.
 - Exemplary Reviewer, IEEE Communications Letters, 2010.
-- Best Paper Finalist , IEEE/WIC/ACM International Conference on Web Intelligence, Canada, 2010.
+- Best Paper Finalist, IEEE/WIC/ACM International Conference on Web Intelligence, Canada, 2010.
 - Best Paper Award, The Third International Workshop on Security, Japan, 2008.
 - Information Processing Engineer Certificate, Taiwan, 1999.
 - High School Computer Science Teacher Certificate, Taiwan, 1998.

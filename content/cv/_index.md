@@ -16,6 +16,7 @@ date: 2023-11-20T14:08:00+08:00
 - Mar.'23 - present; Specialist; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
 - Mar.'19 - present; Executive Secretary; CODATA Committee of Taiwan
+- Aug.'23 - Jan.'24; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
 - Jan.'21 - Dec.'22; Consultant; Ministry of Education, Taiwan
 - Aug.'20 - July'22; Adjunct Professor; Department of Computer Science, National Chiao Tung University
 - Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium

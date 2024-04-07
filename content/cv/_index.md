@@ -53,6 +53,9 @@ date: 2023-11-20T14:08:00+08:00
 - Honorary Member, Phi Tau Phi Scholastic Honor Society, 1997.
 
 ### Project Grants
+- National Science and Technology Council, Taiwan
+  - (PI) "From Smart City to Happy City: Exploring the Pulse of the City with AIoT", 2023/8/1 - 2026/7/31 (NSTC 112-2221-E-001-005-MY3)
+
 - Ministry of Science and Technology, Taiwan
   - (PI) "UpStream - Using Participatory approaches to instigate improvements in water quality", 2021/6/1 - 2022/11/30 (MOST 110-2923-E-001-001-MY2)
   - (PI) "Intelligent Low-cost Air Quality Sensing with Agility on the Edge", 2020/8/1 - 2023/7/31 (MOST 109-2221-E-001-005-MY3)
@@ -69,7 +72,7 @@ date: 2023-11-20T14:08:00+08:00
   - (PI) "Link Capacity Estimation in High Speed Networks", 2005/11/1 - 2006/7/31 (NSC 94-2218-E-001-002)
   - (Co-PI) "Assess the Impact of Traffic Pollution on Risk of Depression using Internet of Things Noise Sensor", 2021/8/1 - 2022/7/31 (MOST 110-2314-B-A49A-507)
   - (Co-PI) "Cross countries comparison of road running race and air pollution: Risk perception, risk management, and adaptive behaviors", 2021/8/1 - 2022/7/31 (MOST 110-2410-H-006-108)
-  - (Co-PI) "The Development of Emerging Technology Instructional Materials for High School Students: Interdisciplinary STEM instruction approach", 2020/8/1~2022/7/31 (MOST 109-2511-H-003-009, MOST 110-2511-H-003-050)
+  - (Co-PI) "The Development of Emerging Technology Instructional Materials for High School Students: Interdisciplinary STEM instruction approach", 2020/8/1~2022/7/31 (MOST 109-2511-H-003-009, MOST 110-2511-H-003-050, MOST 111-2511-H-003 -005)
   - (Co-PI) ``Using data fusion of monitoring station and micro measuring devices for atmospheric particulate matter monitoring and small area estimation'', 2016/7/1 - 2018/6/30 (MOST 105-3011-F-001-002, MOST 106-3011-F-001-001)
   - (Co-PI) ``Design and Implementation of spatial-temporal big data analytics for PM 2.5 surveillance'', 2016/7/1 - 2017/6/30 (MOST 105-2634-E-009-002)
   - (Co-PI) "Intelligent Emergency Evacuation Systems for Public Buildings and Facilities", 2015/4/1 - 2015/9/30 (MOST 104-2218-E-006-016)

@@ -260,7 +260,7 @@ date: 2023-11-20T14:08:00+08:00
     - Deputy leader of Taiwan Team: 2008 (Cairo, Egypt), 2009 (Plovdiv, Bulgaria), 2011 (Pattaya, Thailand)
     - Staff of Taiwan Team: 2013 (Brisbane, Australia)
   - Domestic Programming Contest
-    - Judge of Taiwan National Collegiate Programming Contest: 2009 - 2011
+    - Judge of Taiwan National Collegiate Programming Contest: 2009 - 2011, 2022
     - Judge of Taiwan National High School Programming Contest: 2009, 2010, 2012
-    - Judge of Taipei High School Programming Contest: 2006 - 2021
+    - Judge of Taipei High School Programming Contest: 2006 - 2023
 

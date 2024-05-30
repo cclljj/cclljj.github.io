@@ -9,6 +9,7 @@ date: 2023-11-20T14:08:00+08:00
 - B.Ed. in Information and Computer Education, National Taiwan Normal University, June 1998.
 
 ### Work Experience
+- June'24 - present; Chief Strategy Officer; Taiwan AI Academy
 - Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica

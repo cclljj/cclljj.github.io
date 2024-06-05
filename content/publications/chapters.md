@@ -7,6 +7,7 @@ sitemap:
   priority : 0.8
 ---
 
+- 鍾明光, 陳伶志(2024年12月)。參與式感測資料的品質管控機制-以空氣盒子的異常偵測為例。地理資訊的應用。(已接受)
 - 鍾明光, 陳伶志(2024年05月)。參與式感測中的資料加值與公共對話:以空氣盒子為例。公共化AI：思維、協作與法制的基礎設施(ISBN：9786269724970)。新竹：國立清華大學。
 - Ling-Jyh Chen and Ting-Kai Huang. _Effective File Transfer in Mobile Opportunistic Networks._ Mobile Opportunistic Networks: Architectures, Protocols and Applications (ISBN: 1420088122), pp 203-223, Mieso Denko (Ed.), Auerbach Publications, May 2011.
 - Kuan-Ta Chen, Chien-Wei Lin, Ling-Jyh Chen, and Irwin King. _Human Computation Games and Optimization of Their Productivity._ Web Intelligence and Intelligent Agents (ISBN: 978-953-7619-85-5), pp 289-304, Zeeshan-Ul-Hassan Usmani (Ed.), InTech, March 2010.

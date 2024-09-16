@@ -13,7 +13,7 @@ date: 2023-11-20T14:08:00+08:00
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - June'24 - present; Chief Strategy Officer; Taiwan AI Academy
 - June'24 - present; Co-convener of Information and Communication Group; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
-- Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
+- Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
 - July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
 - Aug.'23 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
 - Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University

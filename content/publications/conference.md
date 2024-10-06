@@ -7,6 +7,8 @@ sitemap:
   priority : 0.8
 ---
 
+- Chien-Ti Hsiao, Tzu-Chin Ho, Hsuan-Ying Liu, Yan-Chi Lu, Kate Lin, Ling-Jyh Chen, and Polly Huang. _Taming the Variability of Soft Sensors_. ACM International Workshop on Human-Centered Sensing, Networking, and Multi-Device Systems (HumanSys'24), Hangzhou, China, 2024.
+- Kang-Syuan Peng, Ying-Kai Hsu, Ting-Ying Chien, and Ling-Jyh Chen. _Using AI to Create Fun Psychological Tests: Applications and Performance Evaluation of Large Language Models in Questionnaire Design_ (in Chinese). International Conference of Digital Archives and Digital Humanities (DADH'24), Taipei, Taiwan, 2024.
 - Ming-Kuang Chung, Fu-Shiang Ching, and Ling-Jyh Chen. _From Participatory Sensing to Public-private Partnership: The Development of AirBox Project in Taiwan_. ACM International Workshop on Urban Sensor Networks (USN'22), Boston, Massachusetts, USA, 2022.
 - Fang-Jing Wu, Yudong Zhao, and Ling-Jyh Chen. _Adaptive Creation and Migration of Time-Series City Profiles Based on Edge Computing_. IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC'21), Virtual Conference, 2021.
 - Dong-Yi Wu, Chen-I Huang, and Ling-Jyh Chen. _Sound Recognition for City Soundscape: using Traffic Noise as an Example_. IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI'20), Taipei, Taiwan, 2020. (Domestic Track _Best Paper Award_)

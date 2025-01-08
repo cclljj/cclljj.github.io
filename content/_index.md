@@ -5,7 +5,11 @@ sitemap:
   priority : 1.0
 ---
 
-Ling-Jyh Chen is the Research Fellow in Institute of Information Science of Academia Sinica, and the Director of Department of Information Technology Services of Academia Sinica. He received the Ph.D. degree in computer science from University of California at Los Angeles in 2005. His research interests are networked sensing systems, Internet of things, and big data analytics. His most recent project is the AirBox project, which is a participatory sensing project for low-cost PM2.5 monitoring. The project is based in Taiwan and operated in a grassroots fashion with more than 20,000 deployments across 59 countries till now. The data portal of this project has become the most popular data source about PM2.5 distributions in Taiwan.
+Dr. Ling-Jyh Chen is currently the Chief Strategy Officer of Taiwan AI Academy and a Research Fellow at the Institute of Information Science, Academia Sinica. He also serves as the Director of the Department of Information Technology Services at Academia Sinica. Dr. Chen holds a PhD in Computer Science from UCLA, specializing in Internet of Things (IoT), Mobile Wireless Networks, and Spatio-temporal Big Data Analysis using AI technologies. His most notable achievement is the Micro PM2.5 Sensor System, which has successfully deployed over 20,000 sensors in 59 countries worldwide. This system promotes research and development in the field of micro air quality sensing, encompassing hardware and software, as well as real-time data analysis and smart city technologies. 
+
+Beyond his academic research, Dr. Chen leads the information technology team at Academia Sinica to advance areas such as information security, administrative computerization systems, computational services, and digital learning. Recently, he led his team in introducing generative AI technology into administrative services, aiming to enhance the efficiency and quality of all academic administrative services. Since joining Taiwan AI Academy, Dr. Chen has been responsible for promoting AI capability certification and government AI adoption. He aspires to make a positive contribution by elevating AI literacy, fostering technological development, and driving industrial transformation through AI applications across various sectors. 
+![image](https://github.com/user-attachments/assets/abda9a24-ece3-41f9-bba8-49fbcd7782a8)
+
 
 <p>
 

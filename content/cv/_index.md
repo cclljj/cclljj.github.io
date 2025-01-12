@@ -269,5 +269,5 @@ date: 2023-11-20T14:08:00+08:00
   - Domestic Programming Contest
     - Judge of Taiwan National Collegiate Programming Contest: 2009 - 2011, 2022
     - Judge of Taiwan National High School Programming Contest: 2009, 2010, 2012
-    - Judge of Taipei High School Programming Contest: 2006 - 2023
+    - Judge of Taipei High School Programming Contest: 2006 - 2024
 

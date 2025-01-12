@@ -13,25 +13,26 @@ date: 2023-11-20T14:08:00+08:00
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - June'24 - present; Chief Strategy Officer; Taiwan AI Academy
 - June'24 - present; Co-convener of Information and Communication Group; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
-- Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
-- July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
-- Aug.'23 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
-- Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
-- Mar.'23 - June'24; Specialist; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
 - Mar.'19 - present; Executive Secretary; CODATA Committee of Taiwan
-- Aug.'23 - Jan.'24; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
-- Jan.'21 - Dec.'22; Consultant; Ministry of Education, Taiwan
-- Aug.'20 - July'22; Adjunct Professor; Department of Computer Science, National Chiao Tung University
-- Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium
-- Oct.'17 - Dec.'17; Acting Director; Department of Information Technology Services, Academia Sinica
-- Jan.'11 - Dec.'17; Associate Research Fellow; Institute of Information Science, Academia Sinica
-- Aug.'11 - July'18; Adjunct Associate Professor; Department  of Computer Science and Information Engineering, National Taiwan Normal University
-- Feb.'08 - Jan.'11; Adjunct Assistant Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
-- Aug.'06 - July '11; Adjunct Assistant Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
-- Sept.'05 - Jan.'11; Assistant Research Fellow; Institute of Information Science, Academia Sinica
-- Sept.'05 - July'06; Adjunct Assistant Professor; Department of Information and Computer Education, National Taiwan Normal University
-- Aug.'97 - July'01; Computer Science Teacher; National Wu-Ling Senior High School, Taiwan
+- Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
+- July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
+- Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
+
+* Aug.'24 - Jan.'25; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
+* Mar.'23 - June'24; Specialist; Science & Technology Policy Advisory Office, National Science and Technology Council, Taiwan
+* Aug.'23 - Jan.'24; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University
+* Jan.'21 - Dec.'22; Consultant; Ministry of Education, Taiwan
+* Aug.'20 - July'22; Adjunct Professor; Department of Computer Science, National Chiao Tung University
+* Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium
+* Aug.'11 - July'18; Adjunct Associate Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
+* Oct.'17 - Dec.'17; Acting Director; Department of Information Technology Services, Academia Sinica
+* Jan.'11 - Dec.'17; Associate Research Fellow; Institute of Information Science, Academia Sinica
+* Feb.'08 - Jan.'11; Adjunct Assistant Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
+* Aug.'06 - July '11; Adjunct Assistant Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
+* Sept.'05 - Jan.'11; Assistant Research Fellow; Institute of Information Science, Academia Sinica
+* Sept.'05 - July'06; Adjunct Assistant Professor; Department of Information and Computer Education, National Taiwan Normal University
+* Aug.'97 - July'01; Computer Science Teacher; National Wu-Ling Senior High School, Taiwan
 
 ### Honors & Awards
 - Best Demo Runner-up Award, ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'23), Istanbul, Turkiye, 2023.
@@ -60,6 +61,8 @@ date: 2023-11-20T14:08:00+08:00
 ### Project Grants
 - National Science and Technology Council, Taiwan
   - (PI) "From Smart City to Happy City: Exploring the Pulse of the City with AIoT", 2023/8/1 - 2026/7/31 (NSTC 112-2221-E-001-005-MY3)
+  - (Co-PI) "New Generation Children and Youth Digital Behavior and Values Program", 2024/10/1 - 2027/9/30 (NSTC 113-2420-H-305-001-MY3 )
+  - (Co-PI) "Learning and Application of Generative Artificial Intelligence in Computer Science Courses", 2024/8/1 - 2027/7/31 (NSTC 113-2410-H-003-018-MY3 )
 
 - Ministry of Science and Technology, Taiwan
   - (PI) "UpStream - Using Participatory approaches to instigate improvements in water quality", 2021/6/1 - 2022/11/30 (MOST 110-2923-E-001-001-MY2)

@@ -3,11 +3,6 @@ title: "Curriculum Vitae"
 date: 2023-11-20T14:08:00+08:00
 ---
 
-### Education
-- Ph.D. in Computer Science, University of California at Los Angeles, June 2005. 
-- M.S. in Computer Science, University of California at Los Angeles, December 2002. 
-- B.Ed. in Information and Computer Education, National Taiwan Normal University, June 1998.
-
 ### Work Experience
 - Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
@@ -33,6 +28,11 @@ date: 2023-11-20T14:08:00+08:00
 * Sept.'05 - Jan.'11; Assistant Research Fellow; Institute of Information Science, Academia Sinica
 * Sept.'05 - July'06; Adjunct Assistant Professor; Department of Information and Computer Education, National Taiwan Normal University
 * Aug.'97 - July'01; Computer Science Teacher; National Wu-Ling Senior High School, Taiwan
+
+### Education
+- Ph.D. in Computer Science, University of California at Los Angeles, June 2005. 
+- M.S. in Computer Science, University of California at Los Angeles, December 2002. 
+- B.Ed. in Information and Computer Education, National Taiwan Normal University, June 1998.
 
 ### Honors & Awards
 - Best Demo Runner-up Award, ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'23), Istanbul, Turkiye, 2023.

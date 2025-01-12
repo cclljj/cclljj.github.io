@@ -2,6 +2,7 @@
 title: "Courses"
 date: 2022-05-23T01:28:30+08:00
 ---
+
 ### Advanced Computer Networks
 - [Fall 2014](https://sites.google.com/site/ntnu2014acn/), National Taiwan Normal University
 - [Fall 2013](https://sites.google.com/site/ntnu2013acn/), National Taiwan Normal University
@@ -32,6 +33,10 @@ date: 2022-05-23T01:28:30+08:00
 
 ### Internet of Things
 - [Spring 2017](https://sites.google.com/site/ntnu2017iot/), National Taiwan Normal University
+
+### Introduction to Artificial Intelligence of Things and its Applications 
+- [Fall 2024](https://classroom.google.com/c/NzEwMjQ4MTgzNTM1), National Taiwan University (TIGP AIoT Program)
+- [Fall 2023](https://classroom.google.com/c/NjE3MzU3NTMzNzI3), National Taiwan University (TIGP AIoT Program)
 
 ### Special Topics in Computer Networks
 - [Spring 2016](https://github.com/IISNRL/ntnu-2016-iot/), National Taiwan Normal University

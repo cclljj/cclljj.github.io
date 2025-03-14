@@ -7,26 +7,26 @@ date: 2022-05-23T01:33:29+08:00
 
 **Full-time**
 
-- Fu-Shiang Ching (2017/10 ~ present)
 - Shu-Chen Chiou (2021/4 ~ present)
-- Ming-Kuang Chung (2021/1 ~ present)
+- Wen-Chun Luo (2024/11 ~ present)
 
 **Part-time**
 
-- Pei-Yu Ho (Master Student, NTU)
 - Chu Chi Pai (Master Student, NTNU)
-- Yi-Lun Yeh (Bachelor Student, CGU)
 
 ### Hall of Fame
 
 **Postdoc**
 
+- Ming-Kuang Chung, 2021/1 ~ 2024/12 (Assistant Professor, National Taiwan University)
 - Dr. Chao-Lin Wu, 2010/8 ~ 2011/9 (Postdoc, National Taiwan University)
 - Dr. Li-Ping Tung, 2010/9 ~ 2011/8 (Assistant Research Fellow, National Chiao Tung University)
 - Dr. Hung-Chia Chen, 2010/3 ~ 2010/6 (Postdoc, U.S. Food and Drug Administration)
 
 **Research Assistants**
 
+
+- Fu-Shiang Ching, 2017/10 ~ 2024/8 (Hang Jian Technology Company Limited)
 - Tai-Ming Huang, 2021/7 ~ 2022/4
 - Lin-Syuan Yang, 2021/1 ~ 2021/8 (MS student, University of California at Los Angeles)
 - Yun-Chieh Wang, 2020/3 ~ 2021/8 (Academia Sinica)
@@ -76,12 +76,15 @@ date: 2022-05-23T01:33:29+08:00
 
 **MS/PhD Students**
 
+- Pei-Yu Ho (Master Student, NTU)
+  - M.S., National Taiwan University, 2024
+  - Thesis title: "[Pedestrian Cadence Sensing in Public Live Cameras Using Computer Vision and Signal Processing](http://dx.doi.org/10.6342/NTU202404122)"
 - Hao-Ying Chang (Master Student, NTNU)
   - M.S., National Taiwan Normal University, 2022
-  - Thesis title: "[A Measurement Study for Decibel Metering of Remote Objects using Microphone Arrays]()"
+  - Thesis title: "[A Measurement Study for Decibel Metering of Remote Objects using Microphone Arrays](https://hdl.handle.net/11296/w9ds8s)"
 - Chia-Chin Chung (Master Student, NTNU)
   - M.S., National Taiwan Normal University, 2022
-  - Thesis title: "[An IoT Security Enhancement using Post-Quantum Cryptography]()"
+  - Thesis title: "[An IoT Security Enhancement using Post-Quantum Cryptography](https://hdl.handle.net/11296/fz4e3k)"
 - Yun Juo Tai
   - M.S., National Taiwan University, 2021
   - Thesis title: "[Responsiveness Assessment of COVID-19 using Worldwide Open Pandemic Data](https://hdl.handle.net/11296/5xgrer)"
@@ -194,6 +197,20 @@ date: 2022-05-23T01:33:29+08:00
 
 ### Intern
 
+- Kang-Hsuan Peng, 2024/7 ~ 2025/1 (BS student, Yuan Ze University)
+- Ying-Kai Hsu, 2024/7 ~ 2025/1 (BS student, Yuan Ze University)
+- Chang-Sheng Lee, 2023/7 ~ 2024/6 (BS student, National Taiwan University of Science and Technology)
+- Po-Chien Liu, 2023/5 ~ 2023/6 (BS student, National Taiwan Normal University)
+- Yi-Lun Yeh, 2022/11 ~ 2023/12 (BS student, Chang Gung University)
+- Yi-Chieh Chen, 2022/8 ~ 2023/1 (BS student, Yuan Ze University)
+- En-Chi Lin, 2022/8 ~ 2022/10 (BS student, Soochow University)
+- Yu-Chi Peng, 2022/7 ~ 2022/12 (BS student, National Taiwan University)
+- Yu-Sheng Cheng, 2022/7 ~ 2022/8 (MS student, National Taiwan University)
+- Tse-Yu Sheng, 2022/7 ~ 2022/8 (BS student, National Taiwan University)
+- Cheng-Chia Wu, 2022/7 ~ 2023/2 (BS student, National Taiwan University)
+- Yun-Cheng Lee, 2021/7 ~ 2022/1 (BS student, National Taiwan University of Science and Technology)
+- Hsin-Yu Chang, 2021/7 ~ 2022/1 (BS student, National Taiwan Normal University)
+- Tsai-Li Chen, 2021/7 ~ 2022/4 (BS student, National Taiwan Normal University)
 - Ting-Wen Ke, 2020/7 ~ 2020/8 (BS student, National Chiao Tung University)
 - Chen-Yi Huang, 2020/5 ~ 2020/8
 - Wei-Ping Lin, 2020/7 ~ 2020/8

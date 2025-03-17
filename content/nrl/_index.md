@@ -12,13 +12,13 @@ date: 2022-05-23T01:33:29+08:00
 
 **Part-time**
 
-- Chu Chi Pai (Master Student, NTNU)
+- Chang-Sheng Lee (Bachelor Student, NTUST)
 
 ### Hall of Fame
 
 **Postdoc**
 
-- Ming-Kuang Chung, 2021/1 ~ 2024/12 (Assistant Professor, National Taiwan University)
+- Dr. Ming-Kuang Chung, 2021/1 ~ 2024/12 (Assistant Professor, National Taiwan University)
 - Dr. Chao-Lin Wu, 2010/8 ~ 2011/9 (Postdoc, National Taiwan University)
 - Dr. Li-Ping Tung, 2010/9 ~ 2011/8 (Assistant Research Fellow, National Chiao Tung University)
 - Dr. Hung-Chia Chen, 2010/3 ~ 2010/6 (Postdoc, U.S. Food and Drug Administration)

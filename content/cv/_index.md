@@ -217,6 +217,7 @@ date: 2023-11-20T14:08:00+08:00
   - IEEE International Workshop on Ubiquitous Multimedia Systems and Applications (UMSA) (2009)
   - IEEE International Workshop on Vehicular Networking (VON) (2012)
   - IEEE International Workshop on Wireless Ad hoc and Sensor Networks (WWASN) (2006 - 2014)
+  - IEEE Region 10 Conference (2025)
   - IEEE Vehicular Technology Conference (VTC) (2008-S, 2010-S, 2018-S)
   - IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS) (2008)
   - IEEE Wireless Telecommunications Symposium (WTS) (2009)

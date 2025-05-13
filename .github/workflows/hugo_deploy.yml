@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest #ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.101.0' # hugo version
+          hugo-version: '0.147.2' #'0.101.0' # hugo version
           # extended: true  # please un-comment this line if yor are using the extended version
 
       - name: Build

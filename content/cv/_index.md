@@ -5,10 +5,10 @@ date: 2023-11-20T14:08:00+08:00
 
 ### Work Experience
 - Jan.'25 - present; Chief Executive Officer; Taiwan AI Academy
+- Mar.'25 - present; Chairman; CODATA Committee of Taiwan
 - Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
-- Mar.'25 - present; Chairman; CODATA Committee of Taiwan
 - Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
 - July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
 - Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University

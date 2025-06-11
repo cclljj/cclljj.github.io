@@ -7,6 +7,7 @@ sitemap:
   priority : 0.8
 ---
 
+- Barrak Alahmad, Shih-Chun Lung, Andrew Makar, Mr Yazan Alwadi, Chun-Hsiang Chiu, Shu-Chuan Hu, Ling-Jyh Chen, Hsin Hung Chen, and C.Y. Chen. Minute-by-Minute Analysis of Heat Exposure and Productivity for Construction Workers in Taiwan. Accepted to Nature Cities.
 - Ling-Jyh Chen, Sakshi Saraswat, Fu-Shiang Ching, Chih-Yi Su, Hsin-Lan Huang, and Wen-Chi Pan. [Development and implementation of EcoDecibel: A low-cost and IoT-based device for noise measurement](https://doi.org/10.1016/j.ecoinf.2024.102968). Ecological Informatics, volume 85, 102968, March 2025.
 - Jia-Hong Tang, Bo-Cheng Lin, Jing-Shiang Hwang, Ling-Jyh Chen, Bing-Sheng Wu, Hong-Lian Jian, Yu-Ting Lee, and Ta-Chien Chan. [Dynamic modelling for noise mapping in urban areas](https://doi.org/10.1016/j.eiar.2022.106864). Environmental Impact Assessment Review, volume 97, 106864, November 2022.
 - Chia-Yu Lo, Min-Te Sun, Ling-Jyh Chen, Kazuya Sakai, and Wei-Shinn Ku. [Recurrent Learning on PM2.5 Prediction Based on Clustered Airbox Dataset](https://doi.org/10.1109/TKDE.2020.3047634). IEEE Transactions on Knowledge and Data Engineering, volume 34, issue 10, pp. 4994-5008, October 2022.

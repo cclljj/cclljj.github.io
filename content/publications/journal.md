@@ -7,8 +7,8 @@ sitemap:
   priority : 0.8
 ---
 
-- Pei-Yu Ho, Ming-Kuang Chung, and Ling-Jyh Chen. Urban Pulse: Measuring Pace of Life through Public Camera-Based Cadence Analysis. Accepted to Discover Internet of Things.
-- Barrak Alahmad, Shih-Chun Lung, Andrew Makar, Mr Yazan Alwadi, Chun-Hsiang Chiu, Shu-Chuan Hu, Ling-Jyh Chen, Hsin Hung Chen, and C.Y. Chen. [Heat Stress and Productivity Losses in Urban Construction Workforces](https://www.nature.com/articles/s44284-025-00283-1). Accepted to Nature Cities.
+- Pei-Yu Ho, Ming-Kuang Chung, and Ling-Jyh Chen. [Urban Pulse: Measuring Pace of Life through Public Camera-Based Cadence Analysis](https://doi.org/10.1007/s43926-025-00186-6). Accepted to Discover Internet of Things.
+- Barrak Alahmad, Shih-Chun Lung, Andrew Makar, Mr Yazan Alwadi, Chun-Hsiang Chiu, Shu-Chuan Hu, Ling-Jyh Chen, Hsin Hung Chen, and C.Y. Chen. [Heat Stress and Productivity Losses in Urban Construction Workforces](https://www.nature.com/articles/s44284-025-00283-1). Nature Cities, July 2025.
 - Ling-Jyh Chen, Sakshi Saraswat, Fu-Shiang Ching, Chih-Yi Su, Hsin-Lan Huang, and Wen-Chi Pan. [Development and implementation of EcoDecibel: A low-cost and IoT-based device for noise measurement](https://doi.org/10.1016/j.ecoinf.2024.102968). Ecological Informatics, volume 85, 102968, March 2025.
 - Jia-Hong Tang, Bo-Cheng Lin, Jing-Shiang Hwang, Ling-Jyh Chen, Bing-Sheng Wu, Hong-Lian Jian, Yu-Ting Lee, and Ta-Chien Chan. [Dynamic modelling for noise mapping in urban areas](https://doi.org/10.1016/j.eiar.2022.106864). Environmental Impact Assessment Review, volume 97, 106864, November 2022.
 - Chia-Yu Lo, Min-Te Sun, Ling-Jyh Chen, Kazuya Sakai, and Wei-Shinn Ku. [Recurrent Learning on PM2.5 Prediction Based on Clustered Airbox Dataset](https://doi.org/10.1109/TKDE.2020.3047634). IEEE Transactions on Knowledge and Data Engineering, volume 34, issue 10, pp. 4994-5008, October 2022.

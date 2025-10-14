@@ -7,6 +7,7 @@ sitemap:
   priority : 0.8
 ---
 
+- Chang-Sheng Lee, I-Chen Lee, and Ling-Jyh Chen. _Enhancing Firewall Rule Anomaly Detection via LLM Alignment_. IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI'25), Taipei, Taiwan, 2025.
 - Chien-Ti Hsiao, Tzu-Chin Ho, Hsuan-Ying Liu, Yan-Chi Lu, Kate Lin, Ling-Jyh Chen, and Polly Huang. _Taming the Variability of Soft Sensors_. ACM International Workshop on Human-Centered Sensing, Networking, and Multi-Device Systems (HumanSys'24), Hangzhou, China, 2024.
 - Kang-Syuan Peng, Ying-Kai Hsu, Ting-Ying Chien, and Ling-Jyh Chen. _Using AI to Create Fun Psychological Tests: Applications and Performance Evaluation of Large Language Models in Questionnaire Design_ (in Chinese). International Conference of Digital Archives and Digital Humanities (DADH'24), Taipei, Taiwan, 2024.
 - Ying-Kai Hsu, Kang-Syuan Peng, Ting-Ying Chien, and Ling-Jyh Chen. Adaptive River Anomaly Detection System: Integrating Kinematic Analysis, Image Processing, and Deep Learning (in Chinese). IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI'24), Taipei, Taiwan, 2024.

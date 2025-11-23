@@ -8,11 +8,13 @@ date: 2022-05-23T01:33:29+08:00
 **Full-time**
 
 - Shu-Chen Chiou (2021/4 ~ present)
+- Chang-Sheng Lee (2025/6 ~ present)
 - Wen-Chun Luo (2024/11 ~ present)
 
-**Part-time**
+**Students**
 
-- Chang-Sheng Lee (Bachelor Student, NTUST)
+- Xavier Atero (2024/9 ~ present, TIGP)
+
 
 ### Hall of Fame
 
@@ -197,6 +199,9 @@ date: 2022-05-23T01:33:29+08:00
 
 ### Intern
 
+- Wei-Chia Chang, 2025/7 ~ 2025/11 (BS student, Yuan Ze University)
+- Ching-Wei Wang, 2025/7 ~ 2025/9 (BS student, Tamkang University)
+- I-Chen Lee, 2025/7 ~ 2025/8 (BS student, National Taiwan University)
 - Kang-Hsuan Peng, 2024/7 ~ 2025/1 (BS student, Yuan Ze University)
 - Ying-Kai Hsu, 2024/7 ~ 2025/1 (BS student, Yuan Ze University)
 - Chang-Sheng Lee, 2023/7 ~ 2024/6 (BS student, National Taiwan University of Science and Technology)

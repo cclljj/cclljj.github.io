@@ -9,8 +9,8 @@ date: 2023-11-20T14:08:00+08:00
 - Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
-- Aug.'24 - Dec.'25; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
-- July'22 - June'25; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
+- Aug.'24 - present; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
+- July'22 - present; Adjunct Research Fellow; Research Center for Humanities and Social Sciences, Academia Sinica
 - Aug.'18 - present; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
 
 * Aug.'24 - Jan.'25; Adjunct Professor; Department of Computer Science and Information Engineering, National Taiwan University

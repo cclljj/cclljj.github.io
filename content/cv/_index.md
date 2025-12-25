@@ -39,7 +39,6 @@ date: 2023-11-20T14:08:00+08:00
 ### Honors & Awards
 - Best Demo Runner-up Award, ACM Conference on Embedded Networked Sensor Systems (ACM SenSys'23), Istanbul, Turkiye, 2023.
 - Outstanding Alumni Award, Department of Computer Science and Information Engineering, National Taiwan Normal University, Taiwan 2023.
-- Supervision Award for Best PhD Dissertation Runner-up, Institute of Information & Computing Machinery (IICM), Taiwan, 2021.
 - Spotlight Alumni Award, College of Education, National Taiwan Normal University, Taiwan, 2020.
 - Best Paper Award, Domestic Track, IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI), Taiwan, 2020.
 - Supervision Award for Best PhD Dissertation, Taiwan Agricultural Information Technology Association (TAITA), 2020.

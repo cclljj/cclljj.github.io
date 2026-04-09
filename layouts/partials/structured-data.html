@@ -103,6 +103,25 @@
   -}}
 <script type="application/ld+json">{{ $profilePage | jsonify | safeJS }}</script>
 
+  {{- $service := dict
+    "@context" "https://schema.org"
+    "@type" "ProfessionalService"
+    "@id" (printf "%s/#professional-service" $baseURL)
+    "name" "Ling-Jyh Chen Academic and AI Advisory Services"
+    "url" $ctx.Site.BaseURL
+    "description" $description
+    "founder" (dict "@id" $personID)
+    "provider" (dict "@id" $orgID)
+    "areaServed" "Worldwide"
+    "serviceType" (slice
+      "Academic research collaboration"
+      "AI adoption advisory"
+      "IoT and environmental sensing consulting"
+      "Spatio-temporal data analytics guidance"
+    )
+  -}}
+<script type="application/ld+json">{{ $service | jsonify | safeJS }}</script>
+
   {{- $faq := dict
     "@context" "https://schema.org"
     "@type" "FAQPage"

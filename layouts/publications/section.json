@@ -1,5 +1,20 @@
-{{- $categories := slice -}}
+{{- $ordered := slice -}}
+{{- $used := dict -}}
+{{- $preferred := slice "journal" "conference" "posters" "chapters" "trs" "patents" -}}
+{{- range $preferred -}}
+  {{- with $.GetPage (printf "/publications/%s" .) -}}
+    {{- $ordered = $ordered | append . -}}
+    {{- $used = merge $used (dict .File.ContentBaseName true) -}}
+  {{- end -}}
+{{- end -}}
 {{- range .Pages.ByWeight.ByTitle -}}
+  {{- if not (index $used .File.ContentBaseName) -}}
+    {{- $ordered = $ordered | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $categories := slice -}}
+{{- range $ordered -}}
   {{- $anchor := cond .File (printf "category-%s" .File.ContentBaseName) (printf "category-%s" (urlize .Title)) -}}
   {{- $categories = $categories | append (dict
     "title" .Title

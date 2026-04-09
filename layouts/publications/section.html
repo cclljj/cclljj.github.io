@@ -1,6 +1,20 @@
 {{ define "main" }}
 {{ partial "breadcrumbs" . }}
-{{ $categories := .Pages.ByWeight.ByTitle }}
+{{ $ordered := slice }}
+{{ $used := dict }}
+{{ $preferred := slice "journal" "conference" "posters" "chapters" "trs" "patents" }}
+{{ range $preferred }}
+  {{ with $.GetPage (printf "/publications/%s" .) }}
+    {{ $ordered = $ordered | append . }}
+    {{ $used = merge $used (dict .File.ContentBaseName true) }}
+  {{ end }}
+{{ end }}
+{{ range .Pages.ByWeight.ByTitle }}
+  {{ if not (index $used .File.ContentBaseName) }}
+    {{ $ordered = $ordered | append . }}
+  {{ end }}
+{{ end }}
+{{ $categories := $ordered }}
 <section class="resume-section p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto" id="projects-content">
     <h1 id="{{ urlize .Title }}"><span class="text-primary">{{ .Title }}</span></h1>

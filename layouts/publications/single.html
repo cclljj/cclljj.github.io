@@ -1,13 +1,21 @@
 {{ define "main" }}
-{{ partial "breadcrumbs" . }}
-<section class="resume-section p-3 p-lg-5 d-flex d-column content">
-  <div class="my-auto">
-    <h2 class="mb-0"><span class="text-primary">{{ .Title }}</span></h2>
-    {{ with .Params.image }}<img src="{{ . }}" style="max-height:300px;max-width:30%;" align="right"/>{{ end }}
-    {{ .Content }}
-    <p class="mt-3">
-    {{ partial "techtags" . }}
+{{ $anchor := cond .File (printf "category-%s" .File.ContentBaseName) (printf "category-%s" (urlize .Title)) }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" id="projects-content">
+    <h1 class="mb-2"><span class="text-primary">{{ .Title }}</span></h1>
+    <p class="lead">
+      This category has moved into the consolidated publications page.
+      <a href="{{ "/publications/" | relURL }}#{{ $anchor }}">Open {{ .Title }} in Publications</a>.
     </p>
+    <noscript>
+      <p class="lead">
+        If the automatic redirect does not work, use this link:
+        <a href="{{ "/publications/" | relURL }}#{{ $anchor }}">{{ "/publications/" | relURL }}#{{ $anchor }}</a>
+      </p>
+    </noscript>
   </div>
 </section>
+<script>
+  window.location.replace('{{ "/publications/" | relURL }}#{{ $anchor }}');
+</script>
 {{ end }}

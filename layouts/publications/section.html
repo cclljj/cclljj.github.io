@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+{{ $categories := .Pages.ByWeight.ByTitle }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" id="projects-content">
+    <h1 id="{{ urlize .Title }}"><span class="text-primary">{{ .Title }}</span></h1>
+    {{ if .Content }}
+    <p>{{ .Content }}</p>
+    {{ end }}
+
+    {{ if gt (len $categories) 0 }}
+    <div class="mb-4 mt-4">
+      <h3 class="mb-2">Categories</h3>
+      <ul>
+        {{ range $categories }}
+        {{ $anchor := cond .File (printf "category-%s" .File.ContentBaseName) (printf "category-%s" (urlize .Title)) }}
+        <li><a href="#{{ $anchor }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ range $categories }}
+    {{ $anchor := cond .File (printf "category-%s" .File.ContentBaseName) (printf "category-%s" (urlize .Title)) }}
+    <div class="resume-item d-flex flex-column flex-md-row mb-4" id="{{ $anchor }}">
+      <div class="publication-content mr-auto">
+        <h2 class="mb-2">{{ .Title }}</h2>
+        {{ .Content }}
+        <p class="mt-2"><a href="#{{ urlize $.Title }}">Back to top</a></p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

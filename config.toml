@@ -30,6 +30,16 @@ name = "GitHub"
 
 [outputs]
 home = ["HTML", "JSON"]
+section = ["HTML", "JSON", "RSS"]
+page = ["HTML", "JSON"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
+
+[outputFormats.JSON]
+mediaType = "application/json"
+baseName = "index"
+isPlainText = true
+notAlternative = true
 
 [taxonomies]
 tag = "tags"

@@ -2,7 +2,7 @@
 title: "Patents"
 date: "2022-05-22"
 image: ""
-description: "Patent portfolio involving Ling-Jyh Chen, including U.S. and Taiwan patents."
+description: "Patent portfolio involving Ling-Jyh Chen, including U.S. and Taiwan filings on wireless systems, sensing technologies, and research innovations."
 weight: 1000
 sitemap:
   priority : 0.8

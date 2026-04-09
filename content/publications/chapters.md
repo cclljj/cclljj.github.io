@@ -2,7 +2,7 @@
 title: "Book Chapters"
 date: "2022-05-22"
 image: ""
-description: "Book chapters authored by Ling-Jyh Chen on opportunistic networking, sensing systems, and related topics."
+description: "Book chapters by Ling-Jyh Chen on opportunistic networking, wireless systems, sensing technologies, and mobile computing perspectives."
 weight: 800
 sitemap:
   priority : 0.8

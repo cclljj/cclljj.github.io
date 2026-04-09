@@ -4,14 +4,39 @@
 {{- $published := $ctx.Date.Format "2006-01-02T15:04:05Z07:00" -}}
 {{- $modified := $ctx.Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
 {{- $authorName := printf "%s %s" $ctx.Site.Params.firstName $ctx.Site.Params.lastName -}}
+{{- $baseURL := strings.TrimRight "/" $ctx.Site.BaseURL -}}
+{{- $personID := printf "%s/#person" $baseURL -}}
+{{- $orgID := printf "%s/#organization" $baseURL -}}
+{{- $websiteID := printf "%s/#website" $baseURL -}}
+{{- $pageID := printf "%s#webpage" $ctx.Permalink -}}
+{{- $profileImage := $ctx.Site.Params.profileImage | absURL -}}
 {{- $publisher := dict
+  "@id" $orgID
   "@type" "Organization"
   "name" "Ling-Jyh Chen"
   "url" $ctx.Site.BaseURL
+  "logo" (dict
+    "@type" "ImageObject"
+    "url" $profileImage
+  )
 -}}
+
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@id" $orgID
+  "@type" "Organization"
+  "name" "Ling-Jyh Chen"
+  "url" $ctx.Site.BaseURL
+  "logo" (dict
+    "@type" "ImageObject"
+    "url" $profileImage
+  )
+-}}
+<script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>
 
 {{- $webPage := dict
   "@context" "https://schema.org"
+  "@id" $pageID
   "@type" "WebPage"
   "name" $ctx.Title
   "url" $ctx.Permalink
@@ -19,6 +44,11 @@
   "inLanguage" $lang
   "datePublished" $published
   "dateModified" $modified
+  "isPartOf" (dict "@id" $websiteID)
+  "primaryImageOfPage" (dict
+    "@type" "ImageObject"
+    "url" $profileImage
+  )
 -}}
 <script type="application/ld+json">{{ $webPage | jsonify | safeJS }}</script>
 
@@ -29,23 +59,33 @@
   {{- end -}}
   {{- $person := dict
     "@context" "https://schema.org"
+    "@id" $personID
     "@type" "Person"
     "name" (printf "%s %s" $ctx.Site.Params.firstName $ctx.Site.Params.lastName)
     "url" $ctx.Site.BaseURL
     "email" (printf "mailto:%s" $ctx.Site.Params.email)
     "affiliation" "Academia Sinica"
     "sameAs" $sameAs
+    "worksFor" (dict "@id" $orgID)
+    "image" $profileImage
   -}}
 <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
 
   {{- $website := dict
     "@context" "https://schema.org"
+    "@id" $websiteID
     "@type" "WebSite"
     "name" $ctx.Site.Title
     "url" $ctx.Site.BaseURL
     "inLanguage" $lang
     "datePublished" $published
     "dateModified" $modified
+    "publisher" (dict "@id" $orgID)
+    "potentialAction" (dict
+      "@type" "SearchAction"
+      "target" (printf "%s/?q={search_term_string}" $baseURL)
+      "query-input" "required name=search_term_string"
+    )
   -}}
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 
@@ -58,9 +98,7 @@
     "dateModified" $modified
     "description" $description
     "mainEntity" (dict
-      "@type" "Person"
-      "name" $authorName
-      "url" $ctx.Site.BaseURL
+      "@id" $personID
     )
   -}}
 <script type="application/ld+json">{{ $profilePage | jsonify | safeJS }}</script>
@@ -109,16 +147,44 @@
 {{- if not $ctx.IsHome -}}
   {{- $article := dict
     "@context" "https://schema.org"
+    "@id" (printf "%s#article" $ctx.Permalink)
     "@type" "Article"
     "headline" $ctx.Title
     "url" $ctx.Permalink
     "description" $description
     "datePublished" $published
     "dateModified" $modified
-    "author" (dict "@type" "Person" "name" $authorName)
+    "mainEntityOfPage" (dict "@id" $pageID)
+    "author" (dict "@id" $personID)
     "publisher" $publisher
+    "isPartOf" (dict "@id" $websiteID)
   -}}
 <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if not $ctx.IsHome -}}
+  {{- $crumbPages := slice $ctx.Site.Home -}}
+  {{- range $ctx.Ancestors.Reverse -}}
+    {{- if not .IsHome -}}
+      {{- $crumbPages = $crumbPages | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $crumbPages = $crumbPages | append $ctx -}}
+  {{- $crumbItems := slice -}}
+  {{- range $i, $p := $crumbPages -}}
+    {{- $crumbItems = $crumbItems | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "name" $p.Title
+      "item" $p.Permalink
+    ) -}}
+  {{- end -}}
+  {{- $breadcrumb := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $crumbItems
+  -}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 {{- end -}}
 
 {{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "section") -}}
@@ -157,6 +223,7 @@
   {{- end -}}
   {{- $itemList := dict
     "@context" "https://schema.org"
+    "@id" (printf "%s#publications-itemlist" $ctx.Permalink)
     "@type" "ItemList"
     "name" "Publications Categories"
     "itemListOrder" "https://schema.org/ItemListOrderAscending"
@@ -168,6 +235,7 @@
 
   {{- $collectionPage := dict
     "@context" "https://schema.org"
+    "@id" (printf "%s#publications-collection" $ctx.Permalink)
     "@type" "CollectionPage"
     "name" $ctx.Title
     "url" $ctx.Permalink
@@ -176,8 +244,9 @@
     "dateModified" $modified
     "keywords" (slice "publications" "journal articles" "conference papers" "technical reports" "patents")
     "hasPart" $categoryWorks
-    "creator" (dict "@type" "Person" "name" $authorName)
+    "creator" (dict "@id" $personID)
     "publisher" $publisher
+    "isPartOf" (dict "@id" $websiteID)
   -}}
 <script type="application/ld+json">{{ $collectionPage | jsonify | safeJS }}</script>
 {{- end -}}
@@ -185,14 +254,16 @@
 {{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "page") -}}
   {{- $categoryPage := dict
     "@context" "https://schema.org"
+    "@id" (printf "%s#scholarly-article" $ctx.Permalink)
     "@type" "ScholarlyArticle"
     "headline" $ctx.Title
     "url" $ctx.Permalink
     "description" $description
     "datePublished" $published
     "dateModified" $modified
-    "author" (dict "@type" "Person" "name" $authorName)
+    "author" (dict "@id" $personID)
     "publisher" $publisher
+    "mainEntityOfPage" (dict "@id" $pageID)
     "isPartOf" (dict
       "@type" "CollectionPage"
       "name" "Publications"

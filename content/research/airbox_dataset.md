@@ -1,6 +1,7 @@
 ---
 title: "AirBox Dataset"
 date: 2022-05-23T01:33:29+08:00
+description: "AirBox PM2.5 sample datasets with metadata, download links, citation guidance, and usage conditions for academic and non-profit sensing research."
 ---
 
 We provide the sample dataset of the AirBox project ([https://pm25.lass-net.org/](https://pm25.lass-net.org/)). The project was inspired by the work of the Location Aware Sensing System (LASS) community, which engages citizens to participate in the PM2.5 sensing project and enables them to make low-cost PM2.5 sensing devices on their own. It also facilitates PM2.5 monitoring at a finer spatio-temporal granularity and enriches environmental data analysis by making all measurement data freely available to everyone. Till 2017/08, there have been more than 3,500 AirBox devices deployed in 30 countries worldwide.

@@ -1,7 +1,7 @@
 ---
 title: "Network Research Lab"
 date: 2022-05-23T01:33:29+08:00
-description: "Network Research Lab members, alumni, and research team history led by Ling-Jyh Chen."
+description: "Network Research Lab members, alumni, and team history led by Ling-Jyh Chen, including student trajectories and postdoctoral records."
 ---
 
 ### Research Assistants

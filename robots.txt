@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cclljj.github.io/sitemap.xml

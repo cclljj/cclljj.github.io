@@ -1,0 +1,46 @@
+# Ling-Jyh Chen Academic Website (Detailed LLM Guide)
+
+## Scope
+- Personal profile and affiliations
+- Research overview and selected projects
+- Publications by category
+- Talks and invited speeches
+- Courses and downloads
+
+## Canonical URLs
+- Home: https://cclljj.github.io/
+- CV: https://cclljj.github.io/cv/
+- Research: https://cclljj.github.io/research/
+- Publications: https://cclljj.github.io/publications/
+- Talks: https://cclljj.github.io/talks/
+- Courses: https://cclljj.github.io/courses/
+- Download: https://cclljj.github.io/download/
+- Research Lab: https://cclljj.github.io/nrl/
+
+## Publications Organization
+Publications are presented on one consolidated page in this order:
+1. Journal Articles
+2. Conference Papers
+3. Posters/Demo
+4. Book Chapters
+5. Technical Reports
+6. Patents
+
+Legacy publication category URLs may redirect to category anchors on:
+- https://cclljj.github.io/publications/
+
+## Machine-readable Endpoints
+- Site JSON index: https://cclljj.github.io/index.json
+- Section JSON examples:
+  - https://cclljj.github.io/publications/index.json
+  - https://cclljj.github.io/research/index.json
+  - https://cclljj.github.io/talks/index.json
+- Page JSON example:
+  - https://cclljj.github.io/publications/journal/index.json
+- Sitemap:
+  - https://cclljj.github.io/sitemap.xml
+
+## Crawl Guidance
+- Respect canonical URLs.
+- Prefer JSON endpoints for automated extraction.
+- Use HTML pages for human-facing citation context and outbound links.

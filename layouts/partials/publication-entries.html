@@ -1,0 +1,37 @@
+{{- $page := . -}}
+{{- $entries := slice -}}
+{{- range (split $page.RawContent "\n") -}}
+  {{- $line := trim . " " -}}
+  {{- if hasPrefix $line "- " -}}
+    {{- $body := replaceRE "^-\\s+" "" $line -}}
+    {{- $title := "" -}}
+    {{- $url := "" -}}
+    {{- $linkMatches := findRE "\\[[^\\]]+\\]\\((https?://[^)]+)\\)" $body 1 -}}
+    {{- if gt (len $linkMatches) 0 -}}
+      {{- $mdLink := index $linkMatches 0 -}}
+      {{- $title = replaceRE "^\\[([^\\]]+)\\]\\((https?://[^)]+)\\)$" "$1" $mdLink -}}
+      {{- $url = replaceRE "^\\[([^\\]]+)\\]\\((https?://[^)]+)\\)$" "$2" $mdLink -}}
+    {{- else -}}
+      {{- $emMatches := findRE "_[^_]+_" $body 1 -}}
+      {{- if gt (len $emMatches) 0 -}}
+        {{- $title = trim (index $emMatches 0) "_" -}}
+      {{- else -}}
+        {{- $title = replaceRE "\\..*$" "" $body -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $title = $title | plainify | htmlUnescape | replaceRE "\\s+" " " | strings.TrimSpace -}}
+    {{- if ne $title "" -}}
+      {{- $doi := "" -}}
+      {{- if and (ne $url "") (or (in $url "doi.org/") (in $url "dx.doi.org/")) -}}
+        {{- $doi = replaceRE "^https?://(dx\\.)?doi\\.org/" "" $url -}}
+      {{- end -}}
+      {{- $entries = $entries | append (dict
+        "title" $title
+        "url" $url
+        "doi" $doi
+        "raw" ($body | plainify | htmlUnescape | replaceRE "\\s+" " " | strings.TrimSpace)
+      ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $entries -}}

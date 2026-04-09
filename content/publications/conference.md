@@ -2,6 +2,7 @@
 title: "Conference Papers"
 date: "2022-05-22"
 image: ""
+description: "Conference papers by Ling-Jyh Chen in networking, IoT, AI applications, and sensing systems."
 weight: 600
 sitemap:
   priority : 0.8

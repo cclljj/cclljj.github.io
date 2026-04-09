@@ -6,6 +6,7 @@ theme = "hugo-resume"
 
 [params]
 address = "128, Sec. 2, Academia Road, Taipei 11529, Taiwan"
+description = "Official website of Dr. Ling-Jyh Chen, featuring research, publications, talks, courses, and academic service in IoT, AI, and spatio-temporal data analysis."
 email = "cclljj@iis.sinica.edu.tw"
 favicon = "/favicon.ico"
 firstName = "Ling-Jyh"

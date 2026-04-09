@@ -2,6 +2,7 @@
 title: "Technical Reports"
 date: "2022-05-22"
 image: ""
+description: "Technical reports by Ling-Jyh Chen and collaborators from Academia Sinica and UCLA projects."
 weight: 900
 sitemap:
   priority : 0.8

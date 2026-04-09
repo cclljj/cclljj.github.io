@@ -1,0 +1,74 @@
+{{- $ctx := .ctx -}}
+{{- $description := .description -}}
+{{- $lang := default "en-us" $ctx.Site.LanguageCode -}}
+
+{{- $webPage := dict
+  "@context" "https://schema.org"
+  "@type" "WebPage"
+  "name" $ctx.Title
+  "url" $ctx.Permalink
+  "description" $description
+  "inLanguage" $lang
+-}}
+<script type="application/ld+json">{{ $webPage | jsonify | safeJS }}</script>
+
+{{- if $ctx.IsHome -}}
+  {{- $sameAs := slice -}}
+  {{- range $ctx.Site.Params.handles -}}
+    {{- $sameAs = $sameAs | append .link -}}
+  {{- end -}}
+  {{- $person := dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "name" (printf "%s %s" $ctx.Site.Params.firstName $ctx.Site.Params.lastName)
+    "url" $ctx.Site.BaseURL
+    "email" (printf "mailto:%s" $ctx.Site.Params.email)
+    "affiliation" "Academia Sinica"
+    "sameAs" $sameAs
+  -}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+
+  {{- $website := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "name" $ctx.Site.Title
+    "url" $ctx.Site.BaseURL
+    "inLanguage" $lang
+  -}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "section") -}}
+  {{- $ordered := slice -}}
+  {{- $used := dict -}}
+  {{- $preferred := slice "journal" "conference" "posters" "chapters" "trs" "patents" -}}
+  {{- range $preferred -}}
+    {{- with $ctx.GetPage (printf "/publications/%s" .) -}}
+      {{- $ordered = $ordered | append . -}}
+      {{- $used = merge $used (dict .File.ContentBaseName true) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $ctx.Pages.ByWeight.ByTitle -}}
+    {{- if not (index $used .File.ContentBaseName) -}}
+      {{- $ordered = $ordered | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $items := slice -}}
+  {{- range $i, $p := $ordered -}}
+    {{- $items = $items | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "name" $p.Title
+      "url" $p.Permalink
+    ) -}}
+  {{- end -}}
+  {{- $itemList := dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "name" "Publications Categories"
+    "itemListOrder" "https://schema.org/ItemListOrderAscending"
+    "itemListElement" $items
+  -}}
+<script type="application/ld+json">{{ $itemList | jsonify | safeJS }}</script>
+{{- end -}}

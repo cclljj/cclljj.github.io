@@ -1,6 +1,7 @@
 ---
 title: "Talks"
 date: 2022-05-23T01:33:29+08:00
+description: "Invited talks, keynotes, and seminars delivered by Ling-Jyh Chen on IoT, AI applications, environmental sensing, and digital transformation."
 ---
 
 ### 2023
@@ -203,4 +204,3 @@ date: 2022-05-23T01:33:29+08:00
 - Seminar, _Capacity Estimation in Wired and Wireless Networks._ Institute of Information Science, Academia Sinica, Mar. 15, 2005.
 - Seminar, _End-to-end Path Capacity Estimation in Wireless Networks._ Department of Computer Science and Information Engineering, National Taiwan University, Jan. 7, 2005.
 - Seminar, _Capacity Estimation in Wired and Wireless Networks._ Institute of Computer Science and Information Engineering, National Taiwan Normal University, Dec. 29, 2004.
-

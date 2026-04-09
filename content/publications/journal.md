@@ -2,6 +2,7 @@
 title: "Journal Articles"
 date: "2022-05-22"
 image: ""
+description: "Journal articles authored or co-authored by Ling-Jyh Chen across IoT, sensing systems, AI, and data analytics."
 weight: 500
 sitemap:
   priority : 0.8

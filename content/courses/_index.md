@@ -1,6 +1,7 @@
 ---
 title: "Courses"
 date: 2022-05-23T01:28:30+08:00
+description: "Courses taught by Ling-Jyh Chen across computer networks, data communication, IoT, AIoT, and related graduate-level topics."
 ---
 
 ### Advanced Computer Networks

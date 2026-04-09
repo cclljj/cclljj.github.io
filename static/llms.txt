@@ -1,0 +1,18 @@
+# Ling-Jyh Chen Academic Website
+
+This site provides profile, research, publications, talks, courses, and downloadable resources for Ling-Jyh Chen.
+
+Preferred entry points:
+- Home: https://cclljj.github.io/
+- Publications: https://cclljj.github.io/publications/
+- Research: https://cclljj.github.io/research/
+- Talks: https://cclljj.github.io/talks/
+- CV: https://cclljj.github.io/cv/
+
+Machine-readable endpoints:
+- Site JSON: https://cclljj.github.io/index.json
+- Publications JSON: https://cclljj.github.io/publications/index.json
+- Sitemap: https://cclljj.github.io/sitemap.xml
+
+For expanded guidance and endpoint details, see:
+- https://cclljj.github.io/llms-full.txt

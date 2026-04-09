@@ -2,6 +2,7 @@
 title: "Posters/Demo"
 date: "2022-05-22"
 image: ""
+description: "Poster and demo presentations by Ling-Jyh Chen and collaborators."
 weight: 700
 sitemap:
   priority : 0.8

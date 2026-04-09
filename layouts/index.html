@@ -1,8 +1,11 @@
+{{ define "headfiles" }}
+{{ partial "seo-head.html" . }}
+{{ end }}
+
 {{ define "main" }}
    {{ partial "about.html" .}}
    {{ if .Site.Params.showVideo }}
        {{ partial "video.html" . }}
    {{ end }}
 {{ end }}
-
 

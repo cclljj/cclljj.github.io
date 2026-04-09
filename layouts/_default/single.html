@@ -1,0 +1,15 @@
+{{ define "headfiles" }}
+{{ partial "seo-head.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" id="projects-content">
+    <h1 id="{{ urlize .Title }}"><span class="text-primary">{{ .Title }}</span></h1>
+    {{ if .Content }}
+    <div>{{ .Content }}</div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

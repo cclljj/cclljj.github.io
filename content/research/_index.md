@@ -1,6 +1,7 @@
 ---
 title: "Research"
 date: 2022-05-23T01:33:29+08:00
+description: "Research overview of Ling-Jyh Chen, with focus on IoT sensing systems, AirBox, smart city applications, and AI-driven spatio-temporal data analysis."
 ---
 
 ### Current Project

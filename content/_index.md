@@ -1,6 +1,7 @@
 ---
 title: "Home"
 date: 2022-05-22T22:50:04+08:00
+description: "Dr. Ling-Jyh Chen's official website, including profile, research, publications, talks, courses, and downloadable resources."
 sitemap:
   priority : 1.0
 ---

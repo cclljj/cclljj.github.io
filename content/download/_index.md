@@ -1,6 +1,7 @@
 ---
 title: "Downloads"
 date: 2022-05-23T01:28:30+08:00
+description: "Download resources including AirBox datasets, software tools, and project artifacts referenced in Ling-Jyh Chen's research."
 ---
 
 ###  AirBox dataset

@@ -1,0 +1,31 @@
+{{- $rawDesc := "" -}}
+{{- if .IsHome -}}
+  {{- $rawDesc = default "" .Site.Params.description -}}
+{{- else -}}
+  {{- $rawDesc = default "" .Description -}}
+{{- end -}}
+{{- if or (eq (lower (trim $rawDesc " ")) "na") (eq (trim $rawDesc " ") "") -}}
+  {{- with .Summary -}}
+    {{- $rawDesc = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if or (eq (lower (trim $rawDesc " ")) "na") (eq (trim $rawDesc " ") "") -}}
+  {{- with .Site.Params.description -}}
+    {{- $rawDesc = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $description := $rawDesc | plainify | htmlUnescape | replaceRE "\\s+" " " | strings.TrimSpace | truncate 170 -}}
+{{- $image := .Site.Params.profileImage | absURL -}}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ .Site.Title }} | {{ .Title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+{{ with .OutputFormats.Get "JSON" }}
+<link rel="alternate" type="application/json" title="{{ $.Title }} JSON" href="{{ .Permalink }}">
+{{ end }}
+{{ partial "structured-data.html" (dict "ctx" . "description" $description) }}

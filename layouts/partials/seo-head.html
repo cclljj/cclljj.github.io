@@ -16,16 +16,9 @@
 {{- end -}}
 {{- $description := $rawDesc | plainify | htmlUnescape | replaceRE "\\s+" " " | strings.TrimSpace | truncate 170 -}}
 {{- $image := .Site.Params.profileImage | absURL -}}
-{{- $publishedAt := .Date -}}
-{{- if $publishedAt.IsZero -}}
-  {{- $publishedAt = now -}}
-{{- end -}}
-{{- $modifiedAt := .Lastmod -}}
-{{- if $modifiedAt.IsZero -}}
-  {{- $modifiedAt = $publishedAt -}}
-{{- end -}}
-{{- $publishedISO := $publishedAt.Format "2006-01-02T15:04:05Z07:00" -}}
-{{- $modifiedISO := $modifiedAt.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $dates := partial "effective-dates.html" . -}}
+{{- $publishedISO := $dates.publishedISO -}}
+{{- $modifiedISO := $dates.modifiedISO -}}
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="sitemap" type="application/xml" href="{{ "sitemap.xml" | absURL }}">
 <meta property="og:url" content="{{ .Permalink }}">

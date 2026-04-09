@@ -1,8 +1,9 @@
 {{- $ctx := .ctx -}}
 {{- $description := .description -}}
 {{- $lang := default "en-us" $ctx.Site.LanguageCode -}}
-{{- $published := $ctx.Date.Format "2006-01-02T15:04:05Z07:00" -}}
-{{- $modified := $ctx.Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $dates := partial "effective-dates.html" $ctx -}}
+{{- $published := $dates.publishedISO -}}
+{{- $modified := $dates.modifiedISO -}}
 {{- $authorName := printf "%s %s" $ctx.Site.Params.firstName $ctx.Site.Params.lastName -}}
 {{- $baseURL := strings.TrimRight "/" $ctx.Site.BaseURL -}}
 {{- $personID := printf "%s/#person" $baseURL -}}
@@ -225,6 +226,7 @@
   {{- $items := slice -}}
   {{- $categoryWorks := slice -}}
   {{- range $i, $p := $ordered -}}
+    {{- $itemDates := partial "effective-dates.html" $p -}}
     {{- $items = $items | append (dict
       "@type" "ListItem"
       "position" (add $i 1)
@@ -236,8 +238,8 @@
       "name" $p.Title
       "url" $p.Permalink
       "genre" "Scholarly publications category"
-      "datePublished" ($p.Date.Format "2006-01-02T15:04:05Z07:00")
-      "dateModified" ($p.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "datePublished" $itemDates.publishedISO
+      "dateModified" $itemDates.modifiedISO
     ) -}}
   {{- end -}}
   {{- $itemList := dict

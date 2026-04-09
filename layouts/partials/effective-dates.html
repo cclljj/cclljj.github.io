@@ -1,0 +1,28 @@
+{{- $ctx := . -}}
+{{- $publishedAt := $ctx.Date -}}
+{{- if $publishedAt.IsZero -}}
+  {{- $publishedAt = $ctx.PublishDate -}}
+{{- end -}}
+{{- if $publishedAt.IsZero -}}
+  {{- with $ctx.GitInfo -}}
+    {{- $publishedAt = .AuthorDate -}}
+  {{- end -}}
+{{- end -}}
+{{- if $publishedAt.IsZero -}}
+  {{- $publishedAt = now -}}
+{{- end -}}
+
+{{- $modifiedAt := $ctx.Lastmod -}}
+{{- with $ctx.GitInfo -}}
+  {{- $modifiedAt = .AuthorDate -}}
+{{- end -}}
+{{- if $modifiedAt.IsZero -}}
+  {{- $modifiedAt = $publishedAt -}}
+{{- end -}}
+
+{{- return (dict
+  "published" $publishedAt
+  "modified" $modifiedAt
+  "publishedISO" ($publishedAt.Format "2006-01-02T15:04:05Z07:00")
+  "modifiedISO" ($modifiedAt.Format "2006-01-02T15:04:05Z07:00")
+) -}}

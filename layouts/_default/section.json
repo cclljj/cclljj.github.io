@@ -1,22 +1,24 @@
 {{- $items := slice -}}
 {{- range .RegularPages.ByWeight.ByTitle -}}
+  {{- $itemDates := partial "effective-dates.html" . -}}
   {{- $items = $items | append (dict
     "title" .Title
     "url" .Permalink
     "summary" (.Summary | plainify)
     "content" (.Plain | plainify)
-    "lastmod" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "lastmod" $itemDates.modifiedISO
     "section" .Section
     "tags" (default (slice) .Params.tags)
   ) -}}
 {{- end -}}
 
+{{- $sectionDates := partial "effective-dates.html" . -}}
 {{- dict
   "title" .Title
   "url" .Permalink
   "summary" (.Summary | plainify)
   "content" (.Plain | plainify)
-  "lastmod" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "lastmod" $sectionDates.modifiedISO
   "section" .Section
   "tags" (default (slice) .Params.tags)
   "items" $items

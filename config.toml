@@ -2,6 +2,7 @@ baseURL = 'https://cclljj.github.io/'
 languageCode = 'en-us'
 title = 'Ling-Jyh Chen'
 theme = "hugo-resume"
+enableGitInfo = true
 
 
 [params]
@@ -44,3 +45,9 @@ notAlternative = true
 
 [taxonomies]
 tag = "tags"
+
+[frontmatter]
+lastmod = [":git", "lastmod", "modified", "date", "publishDate"]
+date = ["date", "publishDate", "lastmod", ":git"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]

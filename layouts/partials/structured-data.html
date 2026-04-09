@@ -189,30 +189,30 @@
 <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
 {{- end -}}
 
+{{- $crumbPages := slice $ctx.Site.Home -}}
 {{- if not $ctx.IsHome -}}
-  {{- $crumbPages := slice $ctx.Site.Home -}}
   {{- range $ctx.Ancestors.Reverse -}}
     {{- if not .IsHome -}}
       {{- $crumbPages = $crumbPages | append . -}}
     {{- end -}}
   {{- end -}}
   {{- $crumbPages = $crumbPages | append $ctx -}}
-  {{- $crumbItems := slice -}}
-  {{- range $i, $p := $crumbPages -}}
-    {{- $crumbItems = $crumbItems | append (dict
-      "@type" "ListItem"
-      "position" (add $i 1)
-      "name" $p.Title
-      "item" $p.Permalink
-    ) -}}
-  {{- end -}}
-  {{- $breadcrumb := dict
-    "@context" "https://schema.org"
-    "@type" "BreadcrumbList"
-    "itemListElement" $crumbItems
-  -}}
-<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 {{- end -}}
+{{- $crumbItems := slice -}}
+{{- range $i, $p := $crumbPages -}}
+  {{- $crumbItems = $crumbItems | append (dict
+    "@type" "ListItem"
+    "position" (add $i 1)
+    "name" $p.Title
+    "item" $p.Permalink
+  ) -}}
+{{- end -}}
+{{- $breadcrumb := dict
+  "@context" "https://schema.org"
+  "@type" "BreadcrumbList"
+  "itemListElement" $crumbItems
+-}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 
 {{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "section") -}}
   {{- $ordered := slice -}}

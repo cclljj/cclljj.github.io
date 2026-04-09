@@ -12,10 +12,10 @@ Beyond his academic research, Dr. Chen leads the information technology team at 
 
 <p>
 
-[![](/image/Google_Scholar_logo.png "Google Scholar")](https://scholar.google.com/citations?user=kGAkolIAAAAJ) 
-[![](/image/ORCID_iD.png "ORCID")](https://orcid.org/0000-0001-5667-7764) 
-[![](/image/DBLP.png "DBLP")](https://dblp.uni-trier.de/pid/34/6553.html) 
-[![](/image/semantic_scholar.png "Semantic Scholar")](https://www.semanticscholar.org/author/2028621418) 
-[![](/image/mgp.png "Mathematics Genealogy Project")](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=105122) 
-[![](/image/Linkedin.png "LinkedIn")](https://www.linkedin.com/in/cclljj/) 
-[![](/image/github_logo.png "Github")](https://github.com/cclljj) 
+[![Google Scholar profile icon](/image/Google_Scholar_logo.png "Google Scholar")](https://scholar.google.com/citations?user=kGAkolIAAAAJ) 
+[![ORCID profile icon](/image/ORCID_iD.png "ORCID")](https://orcid.org/0000-0001-5667-7764) 
+[![DBLP profile icon](/image/DBLP.png "DBLP")](https://dblp.uni-trier.de/pid/34/6553.html) 
+[![Semantic Scholar profile icon](/image/semantic_scholar.png "Semantic Scholar")](https://www.semanticscholar.org/author/2028621418) 
+[![Mathematics Genealogy Project profile icon](/image/mgp.png "Mathematics Genealogy Project")](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=105122) 
+[![LinkedIn profile icon](/image/Linkedin.png "LinkedIn")](https://www.linkedin.com/in/cclljj/) 
+[![GitHub profile icon](/image/github_logo.png "Github")](https://github.com/cclljj) 

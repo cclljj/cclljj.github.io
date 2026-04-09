@@ -1,6 +1,14 @@
 {{- $ctx := .ctx -}}
 {{- $description := .description -}}
 {{- $lang := default "en-us" $ctx.Site.LanguageCode -}}
+{{- $published := $ctx.Date.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $modified := $ctx.Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $authorName := printf "%s %s" $ctx.Site.Params.firstName $ctx.Site.Params.lastName -}}
+{{- $publisher := dict
+  "@type" "Organization"
+  "name" "Ling-Jyh Chen"
+  "url" $ctx.Site.BaseURL
+-}}
 
 {{- $webPage := dict
   "@context" "https://schema.org"
@@ -9,6 +17,8 @@
   "url" $ctx.Permalink
   "description" $description
   "inLanguage" $lang
+  "datePublished" $published
+  "dateModified" $modified
 -}}
 <script type="application/ld+json">{{ $webPage | jsonify | safeJS }}</script>
 
@@ -34,8 +44,26 @@
     "name" $ctx.Site.Title
     "url" $ctx.Site.BaseURL
     "inLanguage" $lang
+    "datePublished" $published
+    "dateModified" $modified
   -}}
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+
+  {{- $profilePage := dict
+    "@context" "https://schema.org"
+    "@type" "ProfilePage"
+    "name" $ctx.Site.Title
+    "url" $ctx.Site.BaseURL
+    "datePublished" $published
+    "dateModified" $modified
+    "description" $description
+    "mainEntity" (dict
+      "@type" "Person"
+      "name" $authorName
+      "url" $ctx.Site.BaseURL
+    )
+  -}}
+<script type="application/ld+json">{{ $profilePage | jsonify | safeJS }}</script>
 
   {{- $faq := dict
     "@context" "https://schema.org"
@@ -78,6 +106,21 @@
 <script type="application/ld+json">{{ $faq | jsonify | safeJS }}</script>
 {{- end -}}
 
+{{- if not $ctx.IsHome -}}
+  {{- $article := dict
+    "@context" "https://schema.org"
+    "@type" "Article"
+    "headline" $ctx.Title
+    "url" $ctx.Permalink
+    "description" $description
+    "datePublished" $published
+    "dateModified" $modified
+    "author" (dict "@type" "Person" "name" $authorName)
+    "publisher" $publisher
+  -}}
+<script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end -}}
+
 {{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "section") -}}
   {{- $ordered := slice -}}
   {{- $used := dict -}}
@@ -109,6 +152,20 @@
     "name" "Publications Categories"
     "itemListOrder" "https://schema.org/ItemListOrderAscending"
     "itemListElement" $items
+    "datePublished" $published
+    "dateModified" $modified
   -}}
 <script type="application/ld+json">{{ $itemList | jsonify | safeJS }}</script>
+
+  {{- $collectionPage := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" $ctx.Title
+    "url" $ctx.Permalink
+    "description" $description
+    "datePublished" $published
+    "dateModified" $modified
+    "hasPart" $items
+  -}}
+<script type="application/ld+json">{{ $collectionPage | jsonify | safeJS }}</script>
 {{- end -}}

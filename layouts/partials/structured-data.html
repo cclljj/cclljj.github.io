@@ -36,6 +36,46 @@
     "inLanguage" $lang
   -}}
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+
+  {{- $faq := dict
+    "@context" "https://schema.org"
+    "@type" "FAQPage"
+    "mainEntity" (slice
+      (dict
+        "@type" "Question"
+        "name" "Who is Ling-Jyh Chen?"
+        "acceptedAnswer" (dict
+          "@type" "Answer"
+          "text" "Ling-Jyh Chen is the Chief Executive Officer of Taiwan AI Academy and a Research Fellow at the Institute of Information Science, Academia Sinica."
+        )
+      )
+      (dict
+        "@type" "Question"
+        "name" "What are the main research areas on this website?"
+        "acceptedAnswer" (dict
+          "@type" "Answer"
+          "text" "The website focuses on IoT, mobile wireless networks, AI applications, environmental sensing, and spatio-temporal data analysis."
+        )
+      )
+      (dict
+        "@type" "Question"
+        "name" "Where can I find the publications list?"
+        "acceptedAnswer" (dict
+          "@type" "Answer"
+          "text" "You can find the consolidated publications page at https://cclljj.github.io/publications/ with categories such as journal articles and conference papers."
+        )
+      )
+      (dict
+        "@type" "Question"
+        "name" "Are machine-readable endpoints available for AI agents?"
+        "acceptedAnswer" (dict
+          "@type" "Answer"
+          "text" "Yes. The site provides machine-readable JSON endpoints, including https://cclljj.github.io/index.json and https://cclljj.github.io/publications/index.json, plus llms.txt guidance."
+        )
+      )
+    )
+  -}}
+<script type="application/ld+json">{{ $faq | jsonify | safeJS }}</script>
 {{- end -}}
 
 {{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "section") -}}

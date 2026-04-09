@@ -138,12 +138,21 @@
   {{- end -}}
 
   {{- $items := slice -}}
+  {{- $categoryWorks := slice -}}
   {{- range $i, $p := $ordered -}}
     {{- $items = $items | append (dict
       "@type" "ListItem"
       "position" (add $i 1)
       "name" $p.Title
       "url" $p.Permalink
+    ) -}}
+    {{- $categoryWorks = $categoryWorks | append (dict
+      "@type" "CreativeWork"
+      "name" $p.Title
+      "url" $p.Permalink
+      "genre" "Scholarly publications category"
+      "datePublished" ($p.Date.Format "2006-01-02T15:04:05Z07:00")
+      "dateModified" ($p.Lastmod.Format "2006-01-02T15:04:05Z07:00")
     ) -}}
   {{- end -}}
   {{- $itemList := dict
@@ -165,7 +174,34 @@
     "description" $description
     "datePublished" $published
     "dateModified" $modified
-    "hasPart" $items
+    "keywords" (slice "publications" "journal articles" "conference papers" "technical reports" "patents")
+    "hasPart" $categoryWorks
+    "creator" (dict "@type" "Person" "name" $authorName)
+    "publisher" $publisher
   -}}
 <script type="application/ld+json">{{ $collectionPage | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and (eq $ctx.Section "publications") (eq $ctx.Kind "page") -}}
+  {{- $categoryPage := dict
+    "@context" "https://schema.org"
+    "@type" "ScholarlyArticle"
+    "headline" $ctx.Title
+    "url" $ctx.Permalink
+    "description" $description
+    "datePublished" $published
+    "dateModified" $modified
+    "author" (dict "@type" "Person" "name" $authorName)
+    "publisher" $publisher
+    "isPartOf" (dict
+      "@type" "CollectionPage"
+      "name" "Publications"
+      "url" ($ctx.Site.GetPage "/publications").Permalink
+    )
+    "about" (slice
+      (dict "@type" "Thing" "name" "Academic publications")
+      (dict "@type" "Thing" "name" $ctx.Title)
+    )
+  -}}
+<script type="application/ld+json">{{ $categoryPage | jsonify | safeJS }}</script>
 {{- end -}}

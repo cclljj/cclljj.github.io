@@ -8,6 +8,7 @@ sitemap:
   priority : 0.8
 ---
 
+- Gladhi Guarddin, Hung-Yun Hsieh, and Ling-Jyh Chen. _Future Local-Sky Clearance as a Candidate-Ranking State for Urban LEO Mobility_. ACM SIGCOMM Workshop on LEO Networking and Communication (LEO-NET'26), Denver, Colorado, USA, 2026.
 - Chang-Sheng Lee, I-Chen Lee, and Ling-Jyh Chen. _Enhancing Firewall Rule Anomaly Detection via LLM Alignment_. IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI'25), Taipei, Taiwan, 2025.
 - Chang-Sheng Lee, Ling-Jyh Chen. _Can AI Outsmart Firewall Errors? A Study on LLMs for Anomaly Generation and Detection_. IEEE International Conference on Dependable and Secure Computing (DSC'25), Taipei, Taiwan, 2025.
 - Chien-Ti Hsiao, Tzu-Chin Ho, Hsuan-Ying Liu, Yan-Chi Lu, Kate Lin, Ling-Jyh Chen, and Polly Huang. _Taming the Variability of Soft Sensors_. ACM International Workshop on Human-Centered Sensing, Networking, and Multi-Device Systems (HumanSys'24), Hangzhou, China, 2024.

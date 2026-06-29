@@ -126,6 +126,7 @@ description: "Curriculum vitae of Ling-Jyh Chen, including academic positions, e
   - IEEE Senior Member (Communications Society, Computer Society)
   - IICM Life Member
 - Conference Service
+  - General Co-Chair, IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI), Taipei, Taiwan, 2026.
   - Program Co-Chair, IEEE/PNC Annual Conference and Joint Meetings (PNC), Taipei, Taiwan, 2021.
   - Organizing Committee, International Symposium on COVID-19, Taipei, Taiwan, 2020.
   - Publication Chair, IEEE/PNC Annual Conference and Joint Meetings (PNC), Singapore, 2019.

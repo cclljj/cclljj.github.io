@@ -62,6 +62,7 @@ description: "Curriculum vitae of Ling-Jyh Chen, including academic positions, e
 
 ### Project Grants
 - National Science and Technology Council, Taiwan
+  - (PI) "Firewall Rule Conflict Detection and Reconstruction Based on Large Language Models", 2026/8/1 - 2029/7/31 (NSTC 115-2221-E-001-015-MY3)
   - (PI) "From Smart City to Happy City: Exploring the Pulse of the City with AIoT", 2023/8/1 - 2026/10/31 (NSTC 112-2221-E-001-005-MY3)
   - (Co-PI) "Taiwan AI Center of Excellence (AICoE) 2.0 Program Office", 2025/1/1 - 2026/12/31 (NSTC 114-2634-F-002-002, NSTC 115-2634-F-002-001)
   - (Co-PI) "New Generation Children and Youth Digital Behavior and Values Program", 2024/10/1 - 2027/9/30 (NSTC 113-2420-H-305-001-MY3)

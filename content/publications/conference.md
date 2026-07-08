@@ -8,7 +8,7 @@ sitemap:
   priority : 0.8
 ---
 
-- Chang-Sheng Lee and Ling-Jyh Chen. _Firewall Normal Form: A Normalization Framework for Firewall Management and Anomaly Correction_. International Conference on Advanced Network Technologies and Applications (APANConf'26), Auckland, New Zealand, 2026.
+- Chang-Sheng Lee and Ling-Jyh Chen. _Firewall Normal Form: A Normalization Framework for Firewall Management and Anomaly Correction_. IEEE International Conference on Advanced Network Technologies and Applications (APANConf'26), Auckland, New Zealand, 2026.
 - Gladhi Guarddin, Hung-Yun Hsieh, and Ling-Jyh Chen. _Future Local-Sky Clearance as a Candidate-Ranking State for Urban LEO Mobility_. ACM SIGCOMM Workshop on LEO Networking and Communication (LEO-NET'26), Denver, Colorado, USA, 2026.
 - Chang-Sheng Lee, I-Chen Lee, and Ling-Jyh Chen. _Enhancing Firewall Rule Anomaly Detection via LLM Alignment_. IEEE International Conference on Technologies and Applications of Artificial Intelligence (TAAI'25), Taipei, Taiwan, 2025.
 - Chang-Sheng Lee and Ling-Jyh Chen. _Can AI Outsmart Firewall Errors? A Study on LLMs for Anomaly Generation and Detection_. IEEE International Conference on Dependable and Secure Computing (DSC'25), Taipei, Taiwan, 2025.

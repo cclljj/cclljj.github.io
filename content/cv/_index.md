@@ -7,7 +7,6 @@ description: "Curriculum vitae of Ling-Jyh Chen, including academic positions, e
 ### Work Experience
 - Jan.'25 - present; Chief Executive Officer; Taiwan AI Academy
 - Mar.'25 - present; Chairman; CODATA Committee of Taiwan
-- Jan.'18 - present; Director; Department of Information Technology Services, Academia Sinica
 - Dec.'17 - present; Research Fellow; Institute of Information Science, Academia Sinica
 - Jan.'20 - present; Executive Committee; Pacific Neighborhood Consortium
 - Aug.'24 - present; Adjunct Research Fellow; Research Center for Information Technology Innovation, Academia Sinica
@@ -22,6 +21,7 @@ description: "Curriculum vitae of Ling-Jyh Chen, including academic positions, e
 * Jan.'21 - Dec.'22; Consultant; Ministry of Education, Taiwan
 * Aug.'20 - July'22; Adjunct Professor; Department of Computer Science, National Chiao Tung University
 * Mar.'19 - Mar.'25; Executive Secretary; CODATA Committee of Taiwan
+* Jan.'18 - Oct.'26; Director; Department of Information Technology Services, Academia Sinica
 * Oct.'17 - Dec.'19; Chief Executive Officer; Pacific Neighborhood Consortium
 * Aug.'11 - July'18; Adjunct Associate Professor; Department of Computer Science and Information Engineering, National Taiwan Normal University
 * Oct.'17 - Dec.'17; Acting Director; Department of Information Technology Services, Academia Sinica
